@@ -1,0 +1,83 @@
+@import url(http://fonts.googleapis.com/css?family=Inconsolata|Open+Sans:400italic,400);
+html {
+  font-size: 100%; }
+
+body {
+  color: #111;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif; }
+
+h1,
+h2,
+h3 {
+  font-family: "Inconsolata", "Times New Roman", Times, serif;
+  text-transform: lowercase; }
+
+time {
+  font-size: 12px;
+  font-size: 0.75rem; }
+
+body {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1024px;
+  background-color: #fcfcfc; }
+
+a,
+a:hover,
+a:visited {
+  color: #11f; }
+
+a {
+  text-decoration: none; }
+
+a:hover {
+  border-bottom: 0.062rem dashed #11f; }
+
+aside {
+  float: left;
+  width: 30%; }
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 5px; }
+
+h2 {
+  margin-top: 12px;
+  margin-bottom: 3px; }
+
+h3 {
+  margin-top: 8px;
+  margin-bottom: 2px; }
+
+main {
+  float: left;
+  margin-right: 4%;
+  width: 66%; }
+
+nav {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+ol, ul {
+  margin-top: 5px;
+  padding-left: 0;
+  list-style: none; }
+
+span {
+  color: #666;
+  font-style: italic; }
+
+time {
+  text-transform: uppercase; }
+
+@media screen and (max-width: 768px) {
+  body {
+    margin-right: 5%;
+    margin-left: 5%; }
+  aside {
+    float: initial;
+    width: initial; }
+  main {
+    float: initial;
+    margin-right: initial;
+    width: initial; } }

@@ -1,0 +1,21 @@
+// Typography
+
+html {
+	font-size: $base-font;
+}
+
+body {
+	color: colour-get('black');
+	font-family: $base-font-family;
+}
+
+h1,
+h2,
+h3 {
+	font-family: $heading-font-family;
+	text-transform: lowercase;  
+}
+
+time {
+	@include font-size(.75);
+}

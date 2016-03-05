@@ -1,0 +1,19 @@
+<aside>
+	<h3>Posts</h3>
+	<ol>
+	  {% for post in site.posts %}
+	  <li>
+	    <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+	  </li>
+	  {% endfor %}
+	</ol>
+	<h3>Links</h3>
+	<ul>
+		<li>
+			<a href="http://github.com/{{ site.author.github }}" target="_blank">github.com/{{ site.author.github }}</a>
+		</li>
+		<li>
+			<a href="http://twitter.com/{{ site.author.twitter }}" target="_blank">twitter.com/{{ site.author.twitter }}</a>
+		</li>
+	</ul>
+</aside>
