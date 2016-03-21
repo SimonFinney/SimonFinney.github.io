@@ -1,7 +1,5 @@
 # Used by calling 'site.*'
-title: Psychology and Usability
-description: Psychology and Usability
-tagline: Psychology and Usability
+title: simonfinney.github.io
 url: localhost:3000
 
 # Jekyll input and output folders

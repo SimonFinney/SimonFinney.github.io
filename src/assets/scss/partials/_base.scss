@@ -41,6 +41,10 @@ h3 {
   @include heading-margin($margin);
 }
 
+img {
+  max-width: 100%;
+}
+
 main {
 	float: left;
 	margin-right: 4%;
@@ -52,10 +56,15 @@ nav {
 	margin-bottom: 20px;
 }
 
-ol, ul {
+ol,
+ul {
 	margin-top: 5px;
-	padding-left: 0;
-	list-style: none;
+}
+
+.links,
+.posts {
+  padding-left: 0;
+  list-style: none;
 }
 
 span {

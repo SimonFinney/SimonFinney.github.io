@@ -1,6 +1,6 @@
 <aside>
 	<h3>Posts</h3>
-	<ol>
+	<ol class="posts">
 	  {% for post in site.posts %}
 	  <li>
 	    <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
@@ -8,7 +8,7 @@
 	  {% endfor %}
 	</ol>
 	<h3>Links</h3>
-	<ul>
+	<ul class="links">
 		<li>
 			<a href="http://github.com/{{ site.author.github }}" target="_blank">github.com/{{ site.author.github }}</a>
 		</li>
