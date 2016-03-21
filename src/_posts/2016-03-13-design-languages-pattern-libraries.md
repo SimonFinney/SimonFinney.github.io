@@ -12,7 +12,7 @@ As Adobe Experience Design is fresh to the market, I figured I'd use this opport
 
 While Framer and proto.io seem to have a good support for dynamic elements, maybe more so than Adobe Experience Design, their learning curves seemed much higher in comparison.
 
-In the next post...
+In the next post, I'll look at gaining empathy for those exposed to the current experience - The tasks covered will include proto-personas, identifying the current issues, experience mapping, and storyboarding.
 
 ### Resources
 
