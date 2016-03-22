@@ -1,8 +1,8 @@
 {
-  "name": "psychology-and-usability",
+  "name": "simonfinney.github.io",
   "private": true,
-  "version": "0.0.0",
-  "description": "Yeoman workflow for psychology and usability",
+  "version": "0.0.1",
+  "description": "simonfinney.github.io",
   "dependencies": {},
   "devDependencies": {
     "browser-sync": "^1.5.7",
