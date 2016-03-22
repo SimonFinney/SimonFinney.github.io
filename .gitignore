@@ -14,3 +14,5 @@ site
 
 # Individual files
 **/.DS_Store
+Gemfile.lock
+_config.build.yml

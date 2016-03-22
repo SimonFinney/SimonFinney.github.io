@@ -26,6 +26,32 @@ aside {
 	width: 30%;
 }
 
+blockquote {
+  position: relative;
+  margin-left: 24px;
+  color: colour-get('grey');
+  font-style: italic;
+
+  &:before {
+    position: absolute;
+    top: 0;
+    display: inline-block;
+    width: 4px;
+    height: 100%;
+    background-color: colour-get('black');
+    content: '';
+  }
+
+  p {
+    padding-left: 16px;
+  }
+}
+
+figcaption {
+  margin-bottom: 8px;
+  color: colour-get('grey');
+}
+
 h1 {
   $margin: 20px;
   @include heading-margin($margin);
