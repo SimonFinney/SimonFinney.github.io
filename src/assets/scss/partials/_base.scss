@@ -30,6 +30,7 @@ blockquote {
   position: relative;
   margin-left: 24px;
   color: colour-get('grey');
+  font-style: italic;
 
   &:before {
     position: absolute;
@@ -44,6 +45,11 @@ blockquote {
   p {
     padding-left: 16px;
   }
+}
+
+figcaption {
+  margin-bottom: 8px;
+  color: colour-get('grey');
 }
 
 h1 {
