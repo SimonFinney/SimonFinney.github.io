@@ -35,12 +35,15 @@ As well as looking at the above areas, throughout the course of the next month, 
 - Research a number of design languages, and pattern libraries, integrating a common framework into the application
 - Conduct usability testing to evaluate my designs in an iterative manner
 
+### Blog platform and project management
 
 After much deliberation on choosing a platform (<a href="https://jekyllrb.com/" target="_blank">Jekyll</a>, <a href="https://medium.com/" target="_blank">Medium</a>, or <a href="https://wordpress.com/" target="_blank">WordPress</a>), I decided to use Jekyll and host it on GitHub Pages as, while the setup was more complicated than the other platforms to get started, it provided me with greater flexibility to customise the layout, handles higher levels of traffic, and also provided the opportunity to open source blog's code on GitHub for anyone to fork and contribute to.
 
 Overviewing a few project management tools to use (<a href="https://asana.com/" target="_blank">Asana</a>, and <a href="https://guides.github.com/features/issues/">GitHub Issues</a>), I decided that as I'll be working on my own, the use of these would be overkill. As a result, I've created a project plan which can be accessed <a href="https://docs.google.com/spreadsheets/d/1cslYNdrI2uEUQJJxMyQ1FbJkkaDBW0eMrTyV0VlHwAM/edit?usp=sharing" target="_blank">here</a>. This outlines both the research and tasks I intend on conducting over the course of the next month, along with some provisional dates in place to ensure I remain on track.
 
-In the next post, I'll discuss some of the pattern libraries, and style guides I'll be researching, as well as the prototype and visual design platforms I'll be using.
+### Next steps
+
+In the next post, I'll discuss some of the design languages, and pattern libraries I'll be researching, as well as the prototype and visual design platforms I'll be using.
 
 ### Resources
 
