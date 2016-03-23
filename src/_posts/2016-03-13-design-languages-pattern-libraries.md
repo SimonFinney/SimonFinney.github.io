@@ -65,7 +65,7 @@ Though Framer and proto.io seem to have a good support for dynamic elements, may
 
 ### Next steps
 
-In the next post, I'll look at gaining empathy for those exposed to the current gig-finding experience. The topics I'll cover will include proto-personas, identifying any issues with the current scenario, experience mapping, and storyboarding.
+In the next post, I'll look at gaining empathy for those exposed to the current gig-finding experience. The topics I'll cover will include proto-personas, identifying any issues with the current scenario, and experience and scenario mapping via storyboarding.
 
 ### Resources
 
