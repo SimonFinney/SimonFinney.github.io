@@ -56,5 +56,5 @@ Overviewing a few project management tools to use (<a href="https://asana.com/" 
 In the next post, I'll discuss some of the design languages, and pattern libraries I'll be researching, as well as the prototype and visual design platforms I intend on using.
 
 ### Resources
-
-<a href="https://jekyllrb.com/" target="_blank">Jekyll - Transform your plain text into static websites and blogs</a>
+- <a href="https://jekyllrb.com/" target="_blank">Jekyll - Transform your plain text into static websites and blogs</a>
+- <a href="https://docs.google.com/spreadsheets/d/1cslYNdrI2uEUQJJxMyQ1FbJkkaDBW0eMrTyV0VlHwAM/edit?usp=sharing" target="_blank">Project plan</a>
