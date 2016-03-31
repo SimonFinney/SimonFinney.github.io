@@ -39,7 +39,7 @@ With the above pain points in mind, I took a first pass at developing a proto-pe
 
 The artifacts were generated over a period of an hour using an <a href="https://dschool.stanford.edu/wp-content/themes/dschool/method-cards/empathy-map.pdf" target="_blank">empathy mapping</a> exercise, as a means of quickly placing myself in my user's shoes to understand their pains and opportunities. From here, I borrowed some formatting guidelines (Gothelf & Seiden, 2013), such as demographic information, and goals and pain points to develop a best guess as to who exactly is using these products and why.
 
-![Empathy map](/assets/images/2016-03-20-gaining-empathy/#.png)
+![Empathy map](/assets/images/2016-03-20-gaining-empathy/Empathy-map.jpg)
 <figcaption>Empathy map</figcaption>
 
 Once I had an idea of who Eoin is, I began brainstorming how his typical scenario and narrative may be, via experience mapping and storyboarding.
@@ -50,12 +50,12 @@ Using the empathy map and persona, I produced a basic experience map that would 
 
 Mapping out the experience helped me understand the possible settings in which the current applications are used (Cooper, Cronin, & Reimann, 2007).
 
-![Experience map](/assets/images/2016-03-20-gaining-empathy/#.png)
+![Experience map](/assets/images/2016-03-20-gaining-empathy/Experience-map.jpg)
 <figcaption>Experience map</figcaption>
 
 From here I used storyboarding as a means of understanding the current scenario better. Storyboarding would help communicate opportunities and pain points by telling a user-centric story, as well as provide a narrative I could use when producing screencasts.
 
-![Storyboard](/assets/images/2016-03-20-gaining-empathy/#.png)
+![Storyboard](/assets/images/2016-03-20-gaining-empathy/Storyboard.jpg)
 <figcaption>Storyboard</figcaption>
 
 The final scenario and storyboard ended up as the following:
