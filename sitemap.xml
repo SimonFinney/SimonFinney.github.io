@@ -2,11 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>simonfinney.github.io/</loc>
-    <lastmod>2016-04-12T22:29:28+01:00</lastmod>
+    <lastmod>2016-04-14T20:04:12+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
+  
+  <url>
+    <loc>simonfinney.github.io/user%20experience%20design/2016/04/03/cognitive-social-psychology/</loc>
+
+    
+    <lastmod>2016-04-03T00:00:00+01:00</lastmod>
+
+    
+
+    
+    <changefreq>monthly</changefreq>
+
+    
+
+    
+    <priority>0.5</priority>
+    
+  </url>
   
   <url>
     <loc>simonfinney.github.io/user%20experience%20design/2016/03/27/information-architecture-content-strategy/</loc>
@@ -86,7 +104,7 @@
     <loc>simonfinney.github.io/</loc>
 
     
-    <lastmod>2016-04-12T22:29:28+01:00</lastmod>
+    <lastmod>2016-04-14T20:04:12+01:00</lastmod>
     
 
     
@@ -103,7 +121,7 @@
     <loc>simonfinney.github.io/sitemap.xml</loc>
 
     
-    <lastmod>2016-04-12T22:29:28+01:00</lastmod>
+    <lastmod>2016-04-14T20:04:12+01:00</lastmod>
     
 
     
