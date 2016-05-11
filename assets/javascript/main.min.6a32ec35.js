@@ -1,1 +1,0 @@
-!function(){function n(){console.log("init")}document.addEventListener("DOMContentLoaded",n)}();
