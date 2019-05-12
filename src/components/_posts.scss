@@ -1,0 +1,31 @@
+////
+/// Posts component styles.
+/// @copyright Simon Finney 2019
+////
+
+@import '../globals/colour', '../globals/sizing';
+
+.posts {
+  /// Border style.
+  /// @type List<*>
+  $posts__border: sizing-get(
+      $sizing: xxs,
+    )
+    solid
+    colour-get(
+      $colour: brand--secondary,
+    );
+
+  padding: sizing-get($sizing: none);
+  list-style: none;
+
+  > li {
+    display: inline-block;
+    padding: sizing-get($sizing: sm);
+    border-bottom: $posts__border;
+
+    &:first-of-type {
+      border-top: $posts__border;
+    }
+  }
+}

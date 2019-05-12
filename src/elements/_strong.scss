@@ -1,0 +1,14 @@
+////
+/// Strong styles.
+/// @copyright Simon Finney 2019
+////
+
+@import '../globals/typography';
+
+/// Weight.
+/// @type Length
+$strong__weight: weight-get(bold);
+
+strong {
+  font-weight: $strong__weight;
+}

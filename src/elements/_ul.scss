@@ -1,0 +1,16 @@
+////
+/// Unordered list styles.
+/// @copyright Simon Finney 2019
+////
+
+@import '../globals/sizing';
+
+/// Padding.
+/// @type Length
+$ul__padding: sizing-get(
+  $sizing: md,
+);
+
+ul {
+  padding-left: $ul__padding;
+}
