@@ -1,0 +1,268 @@
+<!DOCTYPE html><html dir="ltr" lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style data-href="/styles.af87241628f8d1979f56.css">a{font-weight:600;text-decoration:none;color:#408bfc;transition:.1s;-webkit-text-decoration-skip:ink;text-decoration-skip-ink:auto}a[data-icon=codepen]:before{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHBhdGggZD0iTTI5LjU1NSAxMS41MDFsLTE0LTkuMzMzYTEgMSAwIDAgMC0xLjEwOSAwbC0xNCA5LjMzM2ExIDEgMCAwIDAtLjQ0NS44MzJ2OS4zMzNhMSAxIDAgMCAwIC40NDUuODMybDE0IDkuMzMzYS45OTguOTk4IDAgMCAwIDEuMTEgMGwxNC05LjMzM2ExIDEgMCAwIDAgLjQ0NS0uODMydi05LjMzM2ExIDEgMCAwIDAtLjQ0NS0uODMyek0xNSAyMC40NjVMOS44MDMgMTcgMTUgMTMuNTM1IDIwLjE5NyAxNyAxNSAyMC40NjV6bTEtOC42Njd2LTYuOTNsMTEuMTk3IDcuNDY1TDIyIDE1Ljc5OGwtNi00em0tMiAwbC02IDQtNS4xOTctMy40NjVMMTQgNC44Njh2Ni45M3pNNi4xOTcgMTdMMiAxOS43OTh2LTUuNTk2TDYuMTk3IDE3ek04IDE4LjIwMmw2IDR2Ni45M0wyLjgwMyAyMS42NjcgOCAxOC4yMDJ6bTggNGw2LTQgNS4xOTcgMy40NjVMMTYgMjkuMTMydi02Ljkzek0yMy44MDMgMTdMMjggMTQuMjAydjUuNTk2TDIzLjgwMyAxN3oiLz48L3N2Zz4=)}a[data-icon=email]:before{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHBhdGggZD0iTTMyIDEyLjY3OXYxNC4xNzlxMCAxLjE3OS0uODM5IDIuMDE4dC0yLjAxOC44MzlIMi44NTdxLTEuMTc5IDAtMi4wMTgtLjgzOVQwIDI2Ljg1OFYxMi42NzlxLjc4Ni44NzUgMS44MDQgMS41NTQgNi40NjQgNC4zOTMgOC44NzUgNi4xNjEgMS4wMTguNzUgMS42NTIgMS4xN3QxLjY4OC44NTcgMS45NjQuNDM4aC4wMzZxLjkxMSAwIDEuOTY0LS40Mzh0MS42ODgtLjg1NyAxLjY1Mi0xLjE3cTMuMDM2LTIuMTk2IDguODkzLTYuMTYxIDEuMDE4LS42OTYgMS43ODYtMS41NTR6bTAtNS4yNXEwIDEuNDExLS44NzUgMi42OTZ0LTIuMTc5IDIuMTk2cS02LjcxNCA0LjY2MS04LjM1NyA1LjgwNC0uMTc5LjEyNS0uNzU5LjU0NXQtLjk2NC42NzktLjkyOS41OC0xLjAyNy40ODItLjg5My4xNjFoLS4wMzZxLS40MTEgMC0uODkzLS4xNjF0LTEuMDI3LS40ODItLjkyOS0uNTgtLjk2NC0uNjc5LS43NTktLjU0NXEtMS42MjUtMS4xNDMtNC42NzktMy4yNTl0LTMuNjYxLTIuNTQ1cS0xLjEwNy0uNzUtMi4wODktMi4wNjNULS4wMDIgNy44MnEwLTEuMzkzLjc0MS0yLjMyMXQyLjExNi0uOTI5aDI2LjI4NnExLjE2MSAwIDIuMDA5LjgzOXQuODQ4IDIuMDE4eiIvPjwvc3ZnPg==)}a[data-icon=github]:before{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHBhdGggZD0iTTE2IC4zOTVjLTguODM2IDAtMTYgNy4xNjMtMTYgMTYgMCA3LjA2OSA0LjU4NSAxMy4wNjcgMTAuOTQyIDE1LjE4Mi44LjE0OCAxLjA5NC0uMzQ3IDEuMDk0LS43NyAwLS4zODEtLjAxNS0xLjY0Mi0uMDIyLTIuOTc5LTQuNDUyLjk2OC01LjM5MS0xLjg4OC01LjM5MS0xLjg4OC0uNzI4LTEuODQ5LTEuNzc2LTIuMzQxLTEuNzc2LTIuMzQxLTEuNDUyLS45OTMuMTEtLjk3My4xMS0uOTczIDEuNjA2LjExMyAyLjQ1MiAxLjY0OSAyLjQ1MiAxLjY0OSAxLjQyNyAyLjQ0NiAzLjc0MyAxLjczOSA0LjY1NiAxLjMzLjE0My0xLjAzNC41NTgtMS43NCAxLjAxNi0yLjE0LTMuNTU0LS40MDQtNy4yOS0xLjc3Ny03LjI5LTcuOTA3IDAtMS43NDcuNjI1LTMuMTc0IDEuNjQ5LTQuMjk1LS4xNjYtLjQwMy0uNzE0LTIuMDMuMTU1LTQuMjM0IDAgMCAxLjM0NC0uNDMgNC40MDEgMS42NGExNS4zNTMgMTUuMzUzIDAgMCAxIDQuMDA1LS41MzljMS4zNTkuMDA2IDIuNzI5LjE4NCA0LjAwOC41MzkgMy4wNTQtMi4wNyA0LjM5NS0xLjY0IDQuMzk1LTEuNjQuODcxIDIuMjA0LjMyMyAzLjgzMS4xNTcgNC4yMzQgMS4wMjYgMS4xMiAxLjY0NyAyLjU0OCAxLjY0NyA0LjI5NSAwIDYuMTQ1LTMuNzQzIDcuNDk4LTcuMzA2IDcuODk1LjU3NC40OTcgMS4wODUgMS40NyAxLjA4NSAyLjk2MyAwIDIuMTQxLS4wMTkgMy44NjQtLjAxOSA0LjM5MSAwIC40MjYuMjg4LjkyNSAxLjA5OS43NjhDMjcuNDIxIDI5LjQ1NyAzMiAyMy40NjIgMzIgMTYuMzk1YzAtOC44MzctNy4xNjQtMTYtMTYtMTZ6Ii8+PC9zdmc+)}a[data-icon=instagram]:before{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHBhdGggZD0iTTE2IDIuODgxYzQuMjc1IDAgNC43ODEuMDE5IDYuNDYyLjA5NCAxLjU2My4wNjkgMi40MDYuMzMxIDIuOTY5LjU1YTQuOTUyIDQuOTUyIDAgMCAxIDEuODM3IDEuMTk0IDUuMDE1IDUuMDE1IDAgMCAxIDEuMiAxLjgzOGMuMjE5LjU2My40ODEgMS40MTIuNTUgMi45NjkuMDc1IDEuNjg4LjA5NCAyLjE5NC4wOTQgNi40NjNzLS4wMTkgNC43ODEtLjA5NCA2LjQ2M2MtLjA2OSAxLjU2My0uMzMxIDIuNDA2LS41NSAyLjk2OWE0Ljk0IDQuOTQgMCAwIDEtMS4xOTQgMS44MzcgNS4wMiA1LjAyIDAgMCAxLTEuODM3IDEuMmMtLjU2My4yMTktMS40MTMuNDgxLTIuOTY5LjU1LTEuNjg4LjA3NS0yLjE5NC4wOTQtNi40NjMuMDk0cy00Ljc4MS0uMDE5LTYuNDYzLS4wOTRjLTEuNTYzLS4wNjktMi40MDYtLjMzMS0yLjk2OS0uNTVhNC45NTIgNC45NTIgMCAwIDEtMS44MzgtMS4xOTQgNS4wMiA1LjAyIDAgMCAxLTEuMi0xLjgzN2MtLjIxOS0uNTYzLS40ODEtMS40MTMtLjU1LTIuOTY5LS4wNzUtMS42ODgtLjA5NC0yLjE5NC0uMDk0LTYuNDYzcy4wMTktNC43ODEuMDk0LTYuNDYzYy4wNjktMS41NjMuMzMxLTIuNDA2LjU1LTIuOTY5YTQuOTY0IDQuOTY0IDAgMCAxIDEuMTk0LTEuODM4IDUuMDE1IDUuMDE1IDAgMCAxIDEuODM4LTEuMmMuNTYzLS4yMTkgMS40MTItLjQ4MSAyLjk2OS0uNTUgMS42ODEtLjA3NSAyLjE4OC0uMDk0IDYuNDYzLS4wOTR6TTE2IDBjLTQuMzQ0IDAtNC44ODcuMDE5LTYuNTk0LjA5NC0xLjcuMDc1LTIuODY5LjM1LTMuODgxLjc0NC0xLjA1Ni40MTItMS45NS45NTYtMi44MzcgMS44NWE3LjgzMyA3LjgzMyAwIDAgMC0xLjg1IDIuODMxQy40NDQgNi41MzguMTY5IDcuNy4wOTQgOS40LjAxOSAxMS4xMTMgMCAxMS42NTYgMCAxNnMuMDE5IDQuODg3LjA5NCA2LjU5NGMuMDc1IDEuNy4zNSAyLjg2OS43NDQgMy44ODEuNDEzIDEuMDU2Ljk1NiAxLjk1IDEuODUgMi44MzdhNy44MiA3LjgyIDAgMCAwIDIuODMxIDEuODQ0YzEuMDE5LjM5NCAyLjE4MS42NjkgMy44ODEuNzQ0IDEuNzA2LjA3NSAyLjI1LjA5NCA2LjU5NC4wOTRzNC44ODgtLjAxOSA2LjU5NC0uMDk0YzEuNy0uMDc1IDIuODY5LS4zNSAzLjg4MS0uNzQ0IDEuMDUtLjQwNiAxLjk0NC0uOTU2IDIuODMxLTEuODQ0czEuNDM4LTEuNzgxIDEuODQ0LTIuODMxYy4zOTQtMS4wMTkuNjY5LTIuMTgxLjc0NC0zLjg4MS4wNzUtMS43MDYuMDk0LTIuMjUuMDk0LTYuNTk0cy0uMDE5LTQuODg3LS4wOTQtNi41OTRjLS4wNzUtMS43LS4zNS0yLjg2OS0uNzQ0LTMuODgxYTcuNTA2IDcuNTA2IDAgMCAwLTEuODMxLTIuODQ0QTcuODIgNy44MiAwIDAgMCAyNi40ODIuODQzQzI1LjQ2My40NDkgMjQuMzAxLjE3NCAyMi42MDEuMDk5Yy0xLjcxMi0uMDgxLTIuMjU2LS4xLTYuNi0uMXoiLz48cGF0aCBkPSJNMTYgNy43ODFjLTQuNTM3IDAtOC4yMTkgMy42ODEtOC4yMTkgOC4yMTlzMy42ODEgOC4yMTkgOC4yMTkgOC4yMTkgOC4yMTktMy42ODEgOC4yMTktOC4yMTlBOC4yMjEgOC4yMjEgMCAwIDAgMTYgNy43ODF6bTAgMTMuNTVhNS4zMzEgNS4zMzEgMCAxIDEgMC0xMC42NjMgNS4zMzEgNS4zMzEgMCAwIDEgMCAxMC42NjN6TTI2LjQ2MiA3LjQ1NmExLjkxOSAxLjkxOSAwIDEgMS0zLjgzOCAwIDEuOTE5IDEuOTE5IDAgMCAxIDMuODM4IDB6Ii8+PC9zdmc+)}a[data-icon=linkedin]:before{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHBhdGggZD0iTTI5IDBIM0MxLjM1IDAgMCAxLjM1IDAgM3YyNmMwIDEuNjUgMS4zNSAzIDMgM2gyNmMxLjY1IDAgMy0xLjM1IDMtM1YzYzAtMS42NS0xLjM1LTMtMy0zek0xMiAyNkg4VjEyaDR2MTR6bS0yLTE2Yy0xLjEwNiAwLTItLjg5NC0yLTJzLjg5NC0yIDItMmMxLjEwNiAwIDIgLjg5NCAyIDJzLS44OTQgMi0yIDJ6bTE2IDE2aC00di04YzAtMS4xMDYtLjg5NC0yLTItMnMtMiAuODk0LTIgMnY4aC00VjEyaDR2Mi40ODFDMTguODI1IDEzLjM1IDIwLjA4NyAxMiAyMS41IDEyYzIuNDg4IDAgNC41IDIuMjM4IDQuNSA1djl6Ii8+PC9zdmc+)}a[data-icon=medium]:before{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHBhdGggZD0iTTEwLjY2MSA3LjUxOHYyMC45NDZxMCAuNDQ2LS4yMjMuNzU5dC0uNjUyLjMxM3EtLjMwNCAwLS41ODktLjE0M0wuODkzIDI1LjIzMnEtLjM3NS0uMTc5LS42MzQtLjU5OFQwIDIzLjgwNFYzLjQ0N3EwLS4zNTcuMTc5LS42MDd0LjUxOC0uMjVxLjI1IDAgLjc4Ni4yNjhsOS4xMjUgNC41NzFxLjA1NC4wNTQuMDU0LjA4OXptMS4xNDMgMS44MDNsOS41MzYgMTUuNDY0LTkuNTM2LTQuNzVWOS4zMjF6TTMyIDkuNjQzdjE4LjgyMXEwIC40NDYtLjI1LjcyM3QtLjY3OS4yNzctLjgzOS0uMjMybC03Ljg3NS0zLjkyOXpNMzEuOTQ2IDcuNXEwIC4wNTQtNC41OCA3LjQ5MVQyMiAyMy42OTZsLTYuOTY0LTExLjMyMSA1Ljc4Ni05LjQxMXEuMzA0LS41LjkyOS0uNS4yNSAwIC40NjQuMTA3bDkuNjYxIDQuODIxcS4wNzEuMDM2LjA3MS4xMDd6Ii8+PC9zdmc+)}a[data-icon=twitter]:before{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHBhdGggZD0iTTMyIDcuMDc1YTEyLjk0MSAxMi45NDEgMCAwIDEtMy43NjkgMS4wMzEgNi42MDEgNi42MDEgMCAwIDAgMi44ODctMy42MzEgMTMuMjEgMTMuMjEgMCAwIDEtNC4xNjkgMS41OTRBNi41NjUgNi41NjUgMCAwIDAgMjIuMTU1IDRhNi41NjMgNi41NjMgMCAwIDAtNi41NjMgNi41NjNjMCAuNTEyLjA1NiAxLjAxMi4xNjkgMS40OTRBMTguNjM1IDE4LjYzNSAwIDAgMSAyLjIzIDUuMTk1YTYuNTYgNi41NiAwIDAgMC0uODg3IDMuMyA2LjU1NyA2LjU1NyAwIDAgMCAyLjkxOSA1LjQ2MyA2LjU2NSA2LjU2NSAwIDAgMS0yLjk3NS0uODE5di4wODFhNi41NjUgNi41NjUgMCAwIDAgNS4yNjkgNi40MzcgNi41NzQgNi41NzQgMCAwIDEtMi45NjguMTEyIDYuNTg4IDYuNTg4IDAgMCAwIDYuMTMxIDQuNTYzIDEzLjE3IDEzLjE3IDAgMCAxLTkuNzI1IDIuNzE5IDE4LjU2OCAxOC41NjggMCAwIDAgMTAuMDY5IDIuOTVjMTIuMDc1IDAgMTguNjgxLTEwLjAwNiAxOC42ODEtMTguNjgxIDAtLjI4Ny0uMDA2LS41NjktLjAxOS0uODVBMTMuMjE2IDEzLjIxNiAwIDAgMCAzMiA3LjA3NnoiLz48L3N2Zz4=)}a:focus,a:hover{text-decoration:underline}a[data-icon]:before{display:inline-block;width:16px;height:16px;margin-right:8px;vertical-align:middle;background-repeat:no-repeat;content:"";background-size:cover}@media print{a[data-icon]:before{display:none}}@media only screen and (min-width:){aside{float:left;width:33%}}blockquote{position:relative;margin-left:0;padding-right:16px;padding-left:16px;font-style:italic}blockquote:before{display:inline-block;position:absolute;top:0;left:0;width:4px;height:100%;background-color:#408bfc;content:""}body{max-width:1024px;margin-right:auto;margin-left:auto;padding:0 32px}figcaption{font-size:12px;font-size:.75rem}footer{overflow:auto}h1,h2{color:#408bfc}h1,h2,h3,html{font-weight:300}html{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;line-height:1.5;letter-spacing:.00625rem;color:#393939;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased}@media only screen and (min-width:60rem){main{float:left;width:calc(66% - 32px);margin-right:32px}}ol{padding-left:16px}strong{font-weight:600}ul{padding-left:16px}.aside__list{padding-left:0;list-style:none}@media print{.aside__list{list-style:initial}}.footer__section--next,.footer__section--previous{width:calc(50% - 16px)}.footer__section--next{float:right;margin-left:16px;text-align:right}.footer__section--previous{float:left;margin-right:16px}.header{border-bottom:4px solid #f4f4f4}.header__title{font-size:32px;font-size:2rem;display:block;margin-top:32px;margin-bottom:4px;font-weight:300}.header__subtitle{display:block}.header__ul{padding-left:0}@media print{.header__ul{display:none}}.header__li{display:inline-block;margin-right:16px}.header__a{color:#393939}.header__a--active,.header__a:focus,.header__a:hover{color:#408bfc}.header__a:focus,.header__a:hover{text-decoration:initial}.posts{padding:0;list-style:none}.posts>li{display:inline-block;padding:8px;border-bottom:solid #f4f4f4}.posts>li:first-of-type{border-top:solid #f4f4f4}.skills{overflow:auto;padding-left:0;list-style:none}.skills>li{display:inline-block;margin-right:8px;margin-bottom:8px;padding:8px;background-color:#f4f4f4}@media print{.skills>li{font-weight:600}}</style><meta name="generator" content="Gatsby 2.4.3"/><title data-react-helmet="true">Simon Finney</title><meta data-react-helmet="true" name="description" content=""/><style type="text/css">
+    .anchor {
+      float: left;
+      padding-right: 4px;
+      margin-left: -20px;
+    }
+    h1 .anchor svg,
+    h2 .anchor svg,
+    h3 .anchor svg,
+    h4 .anchor svg,
+    h5 .anchor svg,
+    h6 .anchor svg {
+      visibility: hidden;
+    }
+    h1:hover .anchor svg,
+    h2:hover .anchor svg,
+    h3:hover .anchor svg,
+    h4:hover .anchor svg,
+    h5:hover .anchor svg,
+    h6:hover .anchor svg,
+    h1 .anchor:focus svg,
+    h2 .anchor:focus svg,
+    h3 .anchor:focus svg,
+    h4 .anchor:focus svg,
+    h5 .anchor:focus svg,
+    h6 .anchor:focus svg {
+      visibility: visible;
+    }
+  </style><script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+      var hash = window.decodeURI(location.hash.replace('#', ''))
+      if (hash !== '') {
+        var element = document.getElementById(hash)
+        if (element) {
+          var offset = element.offsetTop
+          // Wait for the browser to finish rendering before scrolling.
+          setTimeout((function() {
+            window.scrollTo(0, offset - 0)
+          }), 0)
+        }
+      }
+    })
+  </script><link as="script" rel="preload" href="/webpack-runtime-b7e92146ae246beaebc1.js"/><link as="script" rel="preload" href="/app-dd4774857533c57510c8.js"/><link as="script" rel="preload" href="/styles-4a16ab0239b413334ebe.js"/><link as="script" rel="preload" href="/1-7cb956371c8918246f98.js"/><link as="script" rel="preload" href="/component---src-templates-post-js-3f961b54600d69423a32.js"/><link as="fetch" rel="preload" href="/static/d/889/path---2016-high-fidelity-solution-ed-4-1ee-AbSaEDpsT0ADFG4t4QBcvhi1Zg.json" crossorigin="use-credentials"/></head><body><noscript id="gatsby-noscript">This app works best with JavaScript enabled.</noscript><div id="___gatsby"><div style="outline:none" tabindex="-1" role="group"><header class="header" role="banner"><a class="header__title" href="/">Simon Finney</a><span class="header__subtitle">Front End Specialist</span><nav role="navigation"><ul class="header__ul"><li class="header__li"><a class="header__a" href="/posts">Posts</a></li></ul></nav></header><main role="main"><header><h1>High-fidelity solution</h1><time dateTime="17 April, 2016"></time></header><article><p>This week was the culmination of all the research and design strategy I'd been
+spearheading over the last month.</p>
+<p>My goal was to simplify the current workflow of discovering events the target
+audience might be interested in, based on relevancy, location, and those around
+them. In an effort to illustrate the groundwork of design language and pattern
+library research, information architecture and content strategy, cognitive and
+social psychology, and universal design and accessibility, I've produced a
+prototype that incorporates a number of these considerations.</p>
+<p>Due to time constraints and resources, I only managed to perform usability
+testing with one participant, the details of which can be found at the end of
+this post.</p>
+<p>As a learning challenge for myself, I decided to use some tools that I wasn't
+too familiar with, Adobe Experience Design and Illustrator, in an effort to try
+them out and determine whether I'd use them on other projects in future.</p>
+<h2 id="proposed-user-flow"><a href="#proposed-user-flow" aria-label="proposed user flow permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Proposed user flow</h2>
+<p>My first task was to develop a user flow that I felt was suitable for my primary
+persona, <a href="https://drive.google.com/open?id=0BzA9UyHASmcNNlhldnFENlJOUmc" target="_blank" rel="noopener noreferrer">Eoin</a>,
+and the
+<a href="../gaining-empathy#experience-mapping-and-storyboarding">experience mapping and storyboarding</a>
+exercises I conducted in my previous post on gaining empathy.</p>
+<p><img src="/images/high-fidelity-solution/User-flow.jpg" alt="User flow"></p>
+<figcaption>User flow</figcaption>
+<p>The final user flow is as follows:</p>
+<ol>
+<li>Upon opening the application, Eoin's able to see recommendations based on his
+friends, location, and musical interests</li>
+<li>To discover what's happening this weekend, he opens the filters and selects
+the correct dates</li>
+<li>Once the filtered results roll in, he selects an event that interests him</li>
+<li>He's able to view information about this event, and scrolls down</li>
+<li>He sees which artists are supporting and which of his friends are attending</li>
+<li>Finally, he's able to compare the price of tickets and navigate to the vendor
+of his choosing</li>
+</ol>
+<p>Once decided on the basic flow, I took the opportunity to develop a general
+aesthetic guideline for the outputted designs.</p>
+<h2 id="design-languages-and-pattern-libraries"><a href="#design-languages-and-pattern-libraries" aria-label="design languages and pattern libraries permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Design Languages and Pattern Libraries</h2>
+<p>As I made the decision early on to develop the prototype to be used on a
+smartphone, I inevitably ended up conforming to Google's <a href="%5Bhttps://www.google.com/design/spec/material-design/introduction%5D">material design</a> guidelines in places, incorporating appropriate interface elements where
+necessary to ensure the application felt right.</p>
+<p>However, as discussed in my post on
+<a href="../design-languages-pattern-libraries#yelp-styleguide">design languages and pattern libraries</a>,
+I also wanted to apply bright, clear, and engaging aesthetics to the designs
+without distracting the audience from their current task.</p>
+<p>I developed a very minimal colour palette, similar in simplicity to that of
+Yelp's, that was specific and fit-for-purpose across the application:</p>
+<ul>
+<li><strong>Primary colour:</strong> #4178be - Used for primary actions such as navigation</li>
+<li><strong>Primary colour:</strong> #e71d32 - Dominant background colour</li>
+<li><strong>Secondary colour:</strong> #4b8400 - Reserved for special actions like discovering
+prices</li>
+</ul>
+<p><img src="../images/pages/high-fidelity-solution/Colour-palette.png" alt="Colour palette"></p>
+<figcaption>Colour palette</figcaption>
+<p>The filter button present on the landing view shows how I adapted the
+<a href="https://www.google.com/design/spec/components/buttons-floating-action-button.html" target="_blank" rel="noopener noreferrer">Floating Action Button</a>
+of material design to fall in line with the colour palette I adopted:</p>
+<p><img src="../images/pages/high-fidelity-solution/Filter.png" alt="Filter"></p>
+<figcaption>Filter</figcaption>
+<p>In order to maintain it's own style as an application regardless of what
+platform it may be on, I made a decision to opt-out of using Roboto as a
+typeface, and instead use the classic Helvetica with a number of different
+weights.</p>
+<p>Now I'll look at how the information architecture and content strategy developed
+earlier on fits in with my proposed solution.</p>
+<h2 id="information-architecture-and-content-strategy"><a href="#information-architecture-and-content-strategy" aria-label="information architecture and content strategy permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Information Architecture and Content Strategy</h2>
+<p>I produced a number of design artifacts while auditing
+<a href="http://www.tickets.ie" target="_blank" rel="noopener noreferrer">Tickets.ie</a> with regards to information architecture and
+content strategy.</p>
+<p>Although I never fully realised high-fidelity interfaces for individual artists
+and venues, the links between these sections remain for efficient navigation.
+The metadata described in the proposed
+<a href="https://drive.google.com/open?id=1RkLuzMdiFI6pFTV3tAWfy5JzLK2fJIKnDQ" target="_blank" rel="noopener noreferrer">content model and entity relationship diagram</a>
+rings true across my final design.</p>
+<p>Looking back at my
+<a href="https://drive.google.com/open?id=1CeML0_uEil-w-kM94HQg14zjiE_zuyzQ9Tv-YYDUjRU" target="_blank" rel="noopener noreferrer">core sample content audit</a>,
+I also addressed the following red flags from the current website:</p>
+<ul>
+<li>High character counts on navigation links and subheadings</li>
+<li>Removed any redundant headings and labels, making the content it conveyed more
+apparent</li>
+<li>Produced consistent tone, voice, and wording across calls-to-action and labels</li>
+</ul>
+<p>Moving on from this, I'll discuss how I incorporated cognitive and social
+psychological aspects into my designs.</p>
+<h2 id="cognitive-and-social-psychology"><a href="#cognitive-and-social-psychology" aria-label="cognitive and social psychology permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Cognitive and Social Psychology</h2>
+<p>In my post on
+<a href="../cognitive-social-psychology#cognitive-psychology">cognitive and social psychology</a>,
+I spoke about reducing cognitive load by making information easier to digest
+using a combination of media and text - here's an example of that in the design
+solution:</p>
+<p><img src="../images/pages/high-fidelity-solution/Reducing-cognitive-load.png" alt="Reducing cognitive load"></p>
+<figcaption>Reducing cognitive load</figcaption>
+<p>Above we can also see linking to the venue that the event is being held in,
+appealing to people's want to cut corners in common workflows.</p>
+<p>We also see the social psychological concept of scarcity taking effect - showing
+how many tickets are remaining may persuade the target audience to act quickly
+and purchase a ticket themselves!</p>
+<p>Seeing just how many people you know are attending the event may sway you to
+attend yourself, so the concept of social proof comes into play at the bottom of
+any events details page:</p>
+<p><img src="../images/pages/high-fidelity-solution/Social-proof-contrast.png" alt="Social proof and contrast load"></p>
+<figcaption>Social proof and contrast</figcaption>
+<p>The use of contrast in both colour and size for the event tracking and buying
+buttons makes the buying call-to-action more attractive.</p>
+<p>Lastly I'll touch on universal (inclusive) design and accessibility, and how I
+took the research I did in this area into my final designs.</p>
+<h2 id="universal-design-and-accessibility"><a href="#universal-design-and-accessibility" aria-label="universal design and accessibility permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Universal design and accessibility</h2>
+<p>As discussed in my
+<a href="../universal-inclusive-design-accessibility#equitable-use">post on this topic</a>,
+I've made considerations for a number of principles of universal design:</p>
+<ul>
+<li>Equitable use</li>
+<li>Flexibility in use</li>
+<li>Simple and intuitive use</li>
+<li>Size and space for approach and use</li>
+</ul>
+<p>To validate my proposed solution for equitable use, I tested my designs against
+different levels of colour blindness. One of the most challenging was
+tritanopia, an extremely rare condition that renders blue and green almost
+indistinguishable. The colour palette I developed above provides what I feel is
+enough of a noticeable distinction between actions:</p>
+<p><img src="../images/pages/high-fidelity-solution/Tritanopia-comparison.png" alt="Tritanopia comparison"></p>
+<figcaption>Tritanopia comparison</figcaption>
+<p>To demonstrate flexibility in use, I produced filtering controls that would
+provide the target audience choice in the methods that they used for discovering
+upcoming events, which they could do at their own pace:</p>
+<p><img src="../images/pages/high-fidelity-solution/Filter-panel.png" alt="Filter panel"></p>
+<figcaption>Filter panel</figcaption>
+<p>With regards to simple and intuitive use, the filters above illustrate the
+flexibility of manipulating the event listings depending on the options they
+select. There are also multiple avenues of navigation between artist, event, and
+venue:</p>
+<p><img src="../images/pages/high-fidelity-solution/Navigation.png" alt="Navigation"></p>
+<figcaption>Navigation</figcaption>
+<p>Finally, for size and space for approach and use I looked at adding key actions
+like filtering closer to the user's hand. As well as this, consideration was
+made for the user's comfort, with no touch target being shorter than 40 pixels
+in width or height.</p>
+<p>With the prototype finished, it's now time to see it in action - Here's a
+<a href="http://adobe.ly/1VAFHbh" target="_blank" rel="noopener noreferrer">link</a> to the high-fidelity solution I produced!</p>
+<h2 id="usability-testing"><a href="#usability-testing" aria-label="usability testing permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Usability testing</h2>
+<p>As much research and design effort that's put in throughout the course of a
+project, you never really know which way it's going to go until you've placed
+your designs in front of a user to validate, in order to identify problems with
+the target audience's interaction with a product.</p>
+<p>The goal of the testing was to determine whether the design approach used as a
+result of all the considerations I made throughout the project made sense, or in
+Krug's words, "Get it" testing (2006). Specifically:</p>
+<ul>
+<li>A user will understand how to find information on events they care about</li>
+<li>A user will be able to discover events to attend at any given time period</li>
+<li>A user will be able to determine their best option for purchasing a ticket</li>
+</ul>
+<p>In order to streamline the testing, a
+<a href="https://drive.google.com/open?id=0BzA9UyHASmcNUFY2a2Q4OFJnSFk" target="_blank" rel="noopener noreferrer">consent form</a>,
+<a href="https://drive.google.com/open?id=0BzA9UyHASmcNS2QzalN0Nm0tQ0U" target="_blank" rel="noopener noreferrer">facilitation script</a>,
+and <a href="https://drive.google.com/open?id=0BzA9UyHASmcNanBVa0V2OGVKVmM" target="_blank" rel="noopener noreferrer">test plan</a>
+were created.</p>
+<p>Testing of the prototype was performed on a Google Nexus 5X in Google Chrome
+using the shareable link that Adobe Experience Design generated, with screen,
+face, and voice being recorded using <a href="https://lookback.io/" target="_blank" rel="noopener noreferrer">Lookback</a>.</p>
+<p>With limited time to wrap things up, unfortunately I only managed to perform one
+<a href="https://lookback.io/watch/tY9Ra3rgGoKfStW3A" target="_blank" rel="noopener noreferrer">usability test</a> on the finished
+prototype.</p>
+<p>The participant was delegated three tasks to attempt while thinking aloud over
+the space of 10 minutes:</p>
+<ol>
+<li>Find out when Bell X1 are playing next</li>
+<li>Find out what events are happing this weekend</li>
+<li>Discover the best ticket prices for Battles</li>
+</ol>
+<p>The participant came across a number of issues within the application:</p>
+<ul>
+<li>There was issues with the lack of scrolling functionality within Adobe
+Experience Design - the participant would inadvertently refresh the web
+browser when attempting to scroll, having to restart</li>
+<li>The participant selected 'Upcoming' to see what events were on this weekend</li>
+<li>The Floating Action Button was an unfamiliar concept to the participant</li>
+<li>The icon for the filter reset confused the participant</li>
+<li>It was not apparent to the participant that the button for confirming filters
+was a button</li>
+</ul>
+<p>If I were to produce another iteration of the prototype, there are a number of
+considerations I would have to make based on the problems identified above.</p>
+<p>In order to prevent confusion between the two in future, it's worth considering
+a change of copy from 'Upcoming' to 'My Events' or something along those lines.</p>
+<p>Although not a frequent Android user, it may be worth moving the functionality
+of the Floating Action Button somewhere else on the screen (perhaps in the
+header beside the search) in order for the design to be platform-agnostic.</p>
+<p>There was also confusion around the filter panel - it could be a case of moving
+the confirm button to the right-hand side to make it more obvious that it's a
+button or distancing it a bit from the label. The reset button icon also needs
+to be revised, or perhaps it should be spelt out in English rather than relying
+on iconography.</p>
+<h2 id="conclusion"><a href="#conclusion" aria-label="conclusion permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Conclusion</h2>
+<p>Throughout the course of the last few months, as well as tightening up some
+visual design and prototype development skills, I gained some new knowledge in
+areas I had yet to touch on, including:</p>
+<ul>
+<li>Information architecture and content strategy</li>
+<li>Cognitive and social psychology</li>
+<li>Universal design</li>
+</ul>
+<p>Now that I've been exposed to these concepts and ideas, I'll be able to bring
+them forward into my designs naturally in the future.</p>
+<p>There was a lot of things that slowed me down by own doing - I wanted to
+challenge myself using tools I had little familiarity with, and as a result the
+learning curve was steep and the prototype wasn't as fully developed as I
+would've like it to have been.</p>
+<p>However, I think the act of researching design languages and pattern libraries,
+universal design, and producing mock-ups at a high-fidelity has given me a
+better eye for visual elements like colour, layout, and typography.</p>
+<p>To wrap up, I'll leave with my <a href="https://youtu.be/ukCEd6OgGpg" target="_blank" rel="noopener noreferrer">screencast</a>, which
+has consolidated the entire process from start to finish.</p>
+<h2 id="resources"><a href="#resources" aria-label="resources permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Resources</h2>
+<ul>
+<li><a href="https://www.google.com/design/spec/material-design/introduction.html" target="_blank" rel="noopener noreferrer">Google material design</a></li>
+<li><a href="http://adobe.ly/1VAFHbh" target="_blank" rel="noopener noreferrer">High-fidelity solution</a></li>
+<li><a href="https://youtu.be/ukCEd6OgGpg" target="_blank" rel="noopener noreferrer">Screencast</a></li>
+<li><a href="https://drive.google.com/open?id=0BzA9UyHASmcNWWdnS010NXNhUWc" target="_blank" rel="noopener noreferrer">Screencast uploads</a></li>
+<li><a href="https://drive.google.com/open?id=0BzA9UyHASmcNZlVsbGd2akh5M1U" target="_blank" rel="noopener noreferrer">Prototype uploads</a></li>
+<li><a href="https://lookback.io/watch/tY9Ra3rgGoKfStW3A" target="_blank" rel="noopener noreferrer">Usability test</a></li>
+<li><a href="https://drive.google.com/open?id=1FfljBzfQCazBGK0SXLC3GUzNUsXIMgyWoQ" target="_blank" rel="noopener noreferrer">User flow</a></li>
+<li><a href="https://drive.google.com/open?id=0BzA9UyHASmcNc2xsUl81b01ZbWc" target="_blank" rel="noopener noreferrer">Usability testing uploads</a></li>
+</ul></article><footer><section class="footer__section--previous"><a href="/2016/universal-inclusive-design-accessibility/">Universal (inclusive) design and accessibility</a></section></footer></main><aside><section><h3>Posts</h3><ol class="aside__list"><li><a aria-current="page" title="17 April, 2016" class="" href="/2016/high-fidelity-solution/">High-fidelity solution</a></li><li><a title="10 April, 2016" href="/2016/universal-inclusive-design-accessibility/">Universal (inclusive) design and accessibility</a></li><li><a title="3 April, 2016" href="/2016/cognitive-social-psychology/">Cognitive and social psychology</a></li><li><a title="27 March, 2016" href="/2016/information-architecture-content-strategy/">Information Architecture and Content Strategy</a></li><li><a title="20 March, 2016" href="/2016/gaining-empathy/">Gaining Empathy</a></li><li><a title="13 March, 2016" href="/2016/design-languages-pattern-libraries/">Design Languages and Pattern Libraries</a></li><li><a title="6 March, 2016" href="/2016/introduction/">Introduction</a></li></ol></section><section><h3>Contact</h3><ol class="aside__list"><li><a href="mailto:simonjfinney@gmail.com" rel="noopener noreferrer" target="_blank" data-icon="email">simonjfinney@gmail.com</a></li><li><a href="http://github.com/simonfinney" rel="noopener noreferrer" target="_blank" data-icon="github">GitHub</a></li><li><a href="http://codepen.io/simonfinney" rel="noopener noreferrer" target="_blank" data-icon="codepen">CodePen</a></li><li><a href="https://www.linkedin.com/in/simonfinney" rel="noopener noreferrer" target="_blank" data-icon="linkedin">LinkedIn</a></li><li><a href="http://medium.com/@simonfinney" rel="noopener noreferrer" target="_blank" data-icon="medium">Medium</a></li><li><a href="https://www.instagram.com/simonfinney" rel="noopener noreferrer" target="_blank" data-icon="instagram">Instagram</a></li></ol></section></aside></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.page={"componentChunkName":"component---src-templates-post-js","jsonName":"2016-high-fidelity-solution-ed4","path":"/2016/high-fidelity-solution/"};window.dataPath="889/path---2016-high-fidelity-solution-ed-4-1ee-AbSaEDpsT0ADFG4t4QBcvhi1Zg";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-dd4774857533c57510c8.js"],"component---src-templates-post-js":["/component---src-templates-post-js-3f961b54600d69423a32.js"],"component---src-templates-section-js":["/component---src-templates-section-js-0f0758f1e888ae6d8d26.js"],"component---src-pages-404-js":["/component---src-pages-404-js-ca32227518f5e4fddd1a.js"],"component---src-pages-posts-js":["/component---src-pages-posts-js-d400a05248cd46c6ccee.js"],"pages-manifest":["/pages-manifest-515e88eeb1e2ea547247.js"]};/*]]>*/</script><script src="/component---src-templates-post-js-3f961b54600d69423a32.js" async=""></script><script src="/1-7cb956371c8918246f98.js" async=""></script><script src="/styles-4a16ab0239b413334ebe.js" async=""></script><script src="/app-dd4774857533c57510c8.js" async=""></script><script src="/webpack-runtime-b7e92146ae246beaebc1.js" async=""></script></body></html>

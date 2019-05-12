@@ -1,0 +1,222 @@
+<!DOCTYPE html><html dir="ltr" lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style data-href="/styles.af87241628f8d1979f56.css">a{font-weight:600;text-decoration:none;color:#408bfc;transition:.1s;-webkit-text-decoration-skip:ink;text-decoration-skip-ink:auto}a[data-icon=codepen]:before{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHBhdGggZD0iTTI5LjU1NSAxMS41MDFsLTE0LTkuMzMzYTEgMSAwIDAgMC0xLjEwOSAwbC0xNCA5LjMzM2ExIDEgMCAwIDAtLjQ0NS44MzJ2OS4zMzNhMSAxIDAgMCAwIC40NDUuODMybDE0IDkuMzMzYS45OTguOTk4IDAgMCAwIDEuMTEgMGwxNC05LjMzM2ExIDEgMCAwIDAgLjQ0NS0uODMydi05LjMzM2ExIDEgMCAwIDAtLjQ0NS0uODMyek0xNSAyMC40NjVMOS44MDMgMTcgMTUgMTMuNTM1IDIwLjE5NyAxNyAxNSAyMC40NjV6bTEtOC42Njd2LTYuOTNsMTEuMTk3IDcuNDY1TDIyIDE1Ljc5OGwtNi00em0tMiAwbC02IDQtNS4xOTctMy40NjVMMTQgNC44Njh2Ni45M3pNNi4xOTcgMTdMMiAxOS43OTh2LTUuNTk2TDYuMTk3IDE3ek04IDE4LjIwMmw2IDR2Ni45M0wyLjgwMyAyMS42NjcgOCAxOC4yMDJ6bTggNGw2LTQgNS4xOTcgMy40NjVMMTYgMjkuMTMydi02Ljkzek0yMy44MDMgMTdMMjggMTQuMjAydjUuNTk2TDIzLjgwMyAxN3oiLz48L3N2Zz4=)}a[data-icon=email]:before{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHBhdGggZD0iTTMyIDEyLjY3OXYxNC4xNzlxMCAxLjE3OS0uODM5IDIuMDE4dC0yLjAxOC44MzlIMi44NTdxLTEuMTc5IDAtMi4wMTgtLjgzOVQwIDI2Ljg1OFYxMi42NzlxLjc4Ni44NzUgMS44MDQgMS41NTQgNi40NjQgNC4zOTMgOC44NzUgNi4xNjEgMS4wMTguNzUgMS42NTIgMS4xN3QxLjY4OC44NTcgMS45NjQuNDM4aC4wMzZxLjkxMSAwIDEuOTY0LS40Mzh0MS42ODgtLjg1NyAxLjY1Mi0xLjE3cTMuMDM2LTIuMTk2IDguODkzLTYuMTYxIDEuMDE4LS42OTYgMS43ODYtMS41NTR6bTAtNS4yNXEwIDEuNDExLS44NzUgMi42OTZ0LTIuMTc5IDIuMTk2cS02LjcxNCA0LjY2MS04LjM1NyA1LjgwNC0uMTc5LjEyNS0uNzU5LjU0NXQtLjk2NC42NzktLjkyOS41OC0xLjAyNy40ODItLjg5My4xNjFoLS4wMzZxLS40MTEgMC0uODkzLS4xNjF0LTEuMDI3LS40ODItLjkyOS0uNTgtLjk2NC0uNjc5LS43NTktLjU0NXEtMS42MjUtMS4xNDMtNC42NzktMy4yNTl0LTMuNjYxLTIuNTQ1cS0xLjEwNy0uNzUtMi4wODktMi4wNjNULS4wMDIgNy44MnEwLTEuMzkzLjc0MS0yLjMyMXQyLjExNi0uOTI5aDI2LjI4NnExLjE2MSAwIDIuMDA5LjgzOXQuODQ4IDIuMDE4eiIvPjwvc3ZnPg==)}a[data-icon=github]:before{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHBhdGggZD0iTTE2IC4zOTVjLTguODM2IDAtMTYgNy4xNjMtMTYgMTYgMCA3LjA2OSA0LjU4NSAxMy4wNjcgMTAuOTQyIDE1LjE4Mi44LjE0OCAxLjA5NC0uMzQ3IDEuMDk0LS43NyAwLS4zODEtLjAxNS0xLjY0Mi0uMDIyLTIuOTc5LTQuNDUyLjk2OC01LjM5MS0xLjg4OC01LjM5MS0xLjg4OC0uNzI4LTEuODQ5LTEuNzc2LTIuMzQxLTEuNzc2LTIuMzQxLTEuNDUyLS45OTMuMTEtLjk3My4xMS0uOTczIDEuNjA2LjExMyAyLjQ1MiAxLjY0OSAyLjQ1MiAxLjY0OSAxLjQyNyAyLjQ0NiAzLjc0MyAxLjczOSA0LjY1NiAxLjMzLjE0My0xLjAzNC41NTgtMS43NCAxLjAxNi0yLjE0LTMuNTU0LS40MDQtNy4yOS0xLjc3Ny03LjI5LTcuOTA3IDAtMS43NDcuNjI1LTMuMTc0IDEuNjQ5LTQuMjk1LS4xNjYtLjQwMy0uNzE0LTIuMDMuMTU1LTQuMjM0IDAgMCAxLjM0NC0uNDMgNC40MDEgMS42NGExNS4zNTMgMTUuMzUzIDAgMCAxIDQuMDA1LS41MzljMS4zNTkuMDA2IDIuNzI5LjE4NCA0LjAwOC41MzkgMy4wNTQtMi4wNyA0LjM5NS0xLjY0IDQuMzk1LTEuNjQuODcxIDIuMjA0LjMyMyAzLjgzMS4xNTcgNC4yMzQgMS4wMjYgMS4xMiAxLjY0NyAyLjU0OCAxLjY0NyA0LjI5NSAwIDYuMTQ1LTMuNzQzIDcuNDk4LTcuMzA2IDcuODk1LjU3NC40OTcgMS4wODUgMS40NyAxLjA4NSAyLjk2MyAwIDIuMTQxLS4wMTkgMy44NjQtLjAxOSA0LjM5MSAwIC40MjYuMjg4LjkyNSAxLjA5OS43NjhDMjcuNDIxIDI5LjQ1NyAzMiAyMy40NjIgMzIgMTYuMzk1YzAtOC44MzctNy4xNjQtMTYtMTYtMTZ6Ii8+PC9zdmc+)}a[data-icon=instagram]:before{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHBhdGggZD0iTTE2IDIuODgxYzQuMjc1IDAgNC43ODEuMDE5IDYuNDYyLjA5NCAxLjU2My4wNjkgMi40MDYuMzMxIDIuOTY5LjU1YTQuOTUyIDQuOTUyIDAgMCAxIDEuODM3IDEuMTk0IDUuMDE1IDUuMDE1IDAgMCAxIDEuMiAxLjgzOGMuMjE5LjU2My40ODEgMS40MTIuNTUgMi45NjkuMDc1IDEuNjg4LjA5NCAyLjE5NC4wOTQgNi40NjNzLS4wMTkgNC43ODEtLjA5NCA2LjQ2M2MtLjA2OSAxLjU2My0uMzMxIDIuNDA2LS41NSAyLjk2OWE0Ljk0IDQuOTQgMCAwIDEtMS4xOTQgMS44MzcgNS4wMiA1LjAyIDAgMCAxLTEuODM3IDEuMmMtLjU2My4yMTktMS40MTMuNDgxLTIuOTY5LjU1LTEuNjg4LjA3NS0yLjE5NC4wOTQtNi40NjMuMDk0cy00Ljc4MS0uMDE5LTYuNDYzLS4wOTRjLTEuNTYzLS4wNjktMi40MDYtLjMzMS0yLjk2OS0uNTVhNC45NTIgNC45NTIgMCAwIDEtMS44MzgtMS4xOTQgNS4wMiA1LjAyIDAgMCAxLTEuMi0xLjgzN2MtLjIxOS0uNTYzLS40ODEtMS40MTMtLjU1LTIuOTY5LS4wNzUtMS42ODgtLjA5NC0yLjE5NC0uMDk0LTYuNDYzcy4wMTktNC43ODEuMDk0LTYuNDYzYy4wNjktMS41NjMuMzMxLTIuNDA2LjU1LTIuOTY5YTQuOTY0IDQuOTY0IDAgMCAxIDEuMTk0LTEuODM4IDUuMDE1IDUuMDE1IDAgMCAxIDEuODM4LTEuMmMuNTYzLS4yMTkgMS40MTItLjQ4MSAyLjk2OS0uNTUgMS42ODEtLjA3NSAyLjE4OC0uMDk0IDYuNDYzLS4wOTR6TTE2IDBjLTQuMzQ0IDAtNC44ODcuMDE5LTYuNTk0LjA5NC0xLjcuMDc1LTIuODY5LjM1LTMuODgxLjc0NC0xLjA1Ni40MTItMS45NS45NTYtMi44MzcgMS44NWE3LjgzMyA3LjgzMyAwIDAgMC0xLjg1IDIuODMxQy40NDQgNi41MzguMTY5IDcuNy4wOTQgOS40LjAxOSAxMS4xMTMgMCAxMS42NTYgMCAxNnMuMDE5IDQuODg3LjA5NCA2LjU5NGMuMDc1IDEuNy4zNSAyLjg2OS43NDQgMy44ODEuNDEzIDEuMDU2Ljk1NiAxLjk1IDEuODUgMi44MzdhNy44MiA3LjgyIDAgMCAwIDIuODMxIDEuODQ0YzEuMDE5LjM5NCAyLjE4MS42NjkgMy44ODEuNzQ0IDEuNzA2LjA3NSAyLjI1LjA5NCA2LjU5NC4wOTRzNC44ODgtLjAxOSA2LjU5NC0uMDk0YzEuNy0uMDc1IDIuODY5LS4zNSAzLjg4MS0uNzQ0IDEuMDUtLjQwNiAxLjk0NC0uOTU2IDIuODMxLTEuODQ0czEuNDM4LTEuNzgxIDEuODQ0LTIuODMxYy4zOTQtMS4wMTkuNjY5LTIuMTgxLjc0NC0zLjg4MS4wNzUtMS43MDYuMDk0LTIuMjUuMDk0LTYuNTk0cy0uMDE5LTQuODg3LS4wOTQtNi41OTRjLS4wNzUtMS43LS4zNS0yLjg2OS0uNzQ0LTMuODgxYTcuNTA2IDcuNTA2IDAgMCAwLTEuODMxLTIuODQ0QTcuODIgNy44MiAwIDAgMCAyNi40ODIuODQzQzI1LjQ2My40NDkgMjQuMzAxLjE3NCAyMi42MDEuMDk5Yy0xLjcxMi0uMDgxLTIuMjU2LS4xLTYuNi0uMXoiLz48cGF0aCBkPSJNMTYgNy43ODFjLTQuNTM3IDAtOC4yMTkgMy42ODEtOC4yMTkgOC4yMTlzMy42ODEgOC4yMTkgOC4yMTkgOC4yMTkgOC4yMTktMy42ODEgOC4yMTktOC4yMTlBOC4yMjEgOC4yMjEgMCAwIDAgMTYgNy43ODF6bTAgMTMuNTVhNS4zMzEgNS4zMzEgMCAxIDEgMC0xMC42NjMgNS4zMzEgNS4zMzEgMCAwIDEgMCAxMC42NjN6TTI2LjQ2MiA3LjQ1NmExLjkxOSAxLjkxOSAwIDEgMS0zLjgzOCAwIDEuOTE5IDEuOTE5IDAgMCAxIDMuODM4IDB6Ii8+PC9zdmc+)}a[data-icon=linkedin]:before{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHBhdGggZD0iTTI5IDBIM0MxLjM1IDAgMCAxLjM1IDAgM3YyNmMwIDEuNjUgMS4zNSAzIDMgM2gyNmMxLjY1IDAgMy0xLjM1IDMtM1YzYzAtMS42NS0xLjM1LTMtMy0zek0xMiAyNkg4VjEyaDR2MTR6bS0yLTE2Yy0xLjEwNiAwLTItLjg5NC0yLTJzLjg5NC0yIDItMmMxLjEwNiAwIDIgLjg5NCAyIDJzLS44OTQgMi0yIDJ6bTE2IDE2aC00di04YzAtMS4xMDYtLjg5NC0yLTItMnMtMiAuODk0LTIgMnY4aC00VjEyaDR2Mi40ODFDMTguODI1IDEzLjM1IDIwLjA4NyAxMiAyMS41IDEyYzIuNDg4IDAgNC41IDIuMjM4IDQuNSA1djl6Ii8+PC9zdmc+)}a[data-icon=medium]:before{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHBhdGggZD0iTTEwLjY2MSA3LjUxOHYyMC45NDZxMCAuNDQ2LS4yMjMuNzU5dC0uNjUyLjMxM3EtLjMwNCAwLS41ODktLjE0M0wuODkzIDI1LjIzMnEtLjM3NS0uMTc5LS42MzQtLjU5OFQwIDIzLjgwNFYzLjQ0N3EwLS4zNTcuMTc5LS42MDd0LjUxOC0uMjVxLjI1IDAgLjc4Ni4yNjhsOS4xMjUgNC41NzFxLjA1NC4wNTQuMDU0LjA4OXptMS4xNDMgMS44MDNsOS41MzYgMTUuNDY0LTkuNTM2LTQuNzVWOS4zMjF6TTMyIDkuNjQzdjE4LjgyMXEwIC40NDYtLjI1LjcyM3QtLjY3OS4yNzctLjgzOS0uMjMybC03Ljg3NS0zLjkyOXpNMzEuOTQ2IDcuNXEwIC4wNTQtNC41OCA3LjQ5MVQyMiAyMy42OTZsLTYuOTY0LTExLjMyMSA1Ljc4Ni05LjQxMXEuMzA0LS41LjkyOS0uNS4yNSAwIC40NjQuMTA3bDkuNjYxIDQuODIxcS4wNzEuMDM2LjA3MS4xMDd6Ii8+PC9zdmc+)}a[data-icon=twitter]:before{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHBhdGggZD0iTTMyIDcuMDc1YTEyLjk0MSAxMi45NDEgMCAwIDEtMy43NjkgMS4wMzEgNi42MDEgNi42MDEgMCAwIDAgMi44ODctMy42MzEgMTMuMjEgMTMuMjEgMCAwIDEtNC4xNjkgMS41OTRBNi41NjUgNi41NjUgMCAwIDAgMjIuMTU1IDRhNi41NjMgNi41NjMgMCAwIDAtNi41NjMgNi41NjNjMCAuNTEyLjA1NiAxLjAxMi4xNjkgMS40OTRBMTguNjM1IDE4LjYzNSAwIDAgMSAyLjIzIDUuMTk1YTYuNTYgNi41NiAwIDAgMC0uODg3IDMuMyA2LjU1NyA2LjU1NyAwIDAgMCAyLjkxOSA1LjQ2MyA2LjU2NSA2LjU2NSAwIDAgMS0yLjk3NS0uODE5di4wODFhNi41NjUgNi41NjUgMCAwIDAgNS4yNjkgNi40MzcgNi41NzQgNi41NzQgMCAwIDEtMi45NjguMTEyIDYuNTg4IDYuNTg4IDAgMCAwIDYuMTMxIDQuNTYzIDEzLjE3IDEzLjE3IDAgMCAxLTkuNzI1IDIuNzE5IDE4LjU2OCAxOC41NjggMCAwIDAgMTAuMDY5IDIuOTVjMTIuMDc1IDAgMTguNjgxLTEwLjAwNiAxOC42ODEtMTguNjgxIDAtLjI4Ny0uMDA2LS41NjktLjAxOS0uODVBMTMuMjE2IDEzLjIxNiAwIDAgMCAzMiA3LjA3NnoiLz48L3N2Zz4=)}a:focus,a:hover{text-decoration:underline}a[data-icon]:before{display:inline-block;width:16px;height:16px;margin-right:8px;vertical-align:middle;background-repeat:no-repeat;content:"";background-size:cover}@media print{a[data-icon]:before{display:none}}@media only screen and (min-width:){aside{float:left;width:33%}}blockquote{position:relative;margin-left:0;padding-right:16px;padding-left:16px;font-style:italic}blockquote:before{display:inline-block;position:absolute;top:0;left:0;width:4px;height:100%;background-color:#408bfc;content:""}body{max-width:1024px;margin-right:auto;margin-left:auto;padding:0 32px}figcaption{font-size:12px;font-size:.75rem}footer{overflow:auto}h1,h2{color:#408bfc}h1,h2,h3,html{font-weight:300}html{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;line-height:1.5;letter-spacing:.00625rem;color:#393939;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased}@media only screen and (min-width:60rem){main{float:left;width:calc(66% - 32px);margin-right:32px}}ol{padding-left:16px}strong{font-weight:600}ul{padding-left:16px}.aside__list{padding-left:0;list-style:none}@media print{.aside__list{list-style:initial}}.footer__section--next,.footer__section--previous{width:calc(50% - 16px)}.footer__section--next{float:right;margin-left:16px;text-align:right}.footer__section--previous{float:left;margin-right:16px}.header{border-bottom:4px solid #f4f4f4}.header__title{font-size:32px;font-size:2rem;display:block;margin-top:32px;margin-bottom:4px;font-weight:300}.header__subtitle{display:block}.header__ul{padding-left:0}@media print{.header__ul{display:none}}.header__li{display:inline-block;margin-right:16px}.header__a{color:#393939}.header__a--active,.header__a:focus,.header__a:hover{color:#408bfc}.header__a:focus,.header__a:hover{text-decoration:initial}.posts{padding:0;list-style:none}.posts>li{display:inline-block;padding:8px;border-bottom:solid #f4f4f4}.posts>li:first-of-type{border-top:solid #f4f4f4}.skills{overflow:auto;padding-left:0;list-style:none}.skills>li{display:inline-block;margin-right:8px;margin-bottom:8px;padding:8px;background-color:#f4f4f4}@media print{.skills>li{font-weight:600}}</style><meta name="generator" content="Gatsby 2.4.3"/><title data-react-helmet="true">Simon Finney</title><meta data-react-helmet="true" name="description" content=""/><style type="text/css">
+    .anchor {
+      float: left;
+      padding-right: 4px;
+      margin-left: -20px;
+    }
+    h1 .anchor svg,
+    h2 .anchor svg,
+    h3 .anchor svg,
+    h4 .anchor svg,
+    h5 .anchor svg,
+    h6 .anchor svg {
+      visibility: hidden;
+    }
+    h1:hover .anchor svg,
+    h2:hover .anchor svg,
+    h3:hover .anchor svg,
+    h4:hover .anchor svg,
+    h5:hover .anchor svg,
+    h6:hover .anchor svg,
+    h1 .anchor:focus svg,
+    h2 .anchor:focus svg,
+    h3 .anchor:focus svg,
+    h4 .anchor:focus svg,
+    h5 .anchor:focus svg,
+    h6 .anchor:focus svg {
+      visibility: visible;
+    }
+  </style><script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+      var hash = window.decodeURI(location.hash.replace('#', ''))
+      if (hash !== '') {
+        var element = document.getElementById(hash)
+        if (element) {
+          var offset = element.offsetTop
+          // Wait for the browser to finish rendering before scrolling.
+          setTimeout((function() {
+            window.scrollTo(0, offset - 0)
+          }), 0)
+        }
+      }
+    })
+  </script><link as="script" rel="preload" href="/webpack-runtime-b7e92146ae246beaebc1.js"/><link as="script" rel="preload" href="/app-dd4774857533c57510c8.js"/><link as="script" rel="preload" href="/styles-4a16ab0239b413334ebe.js"/><link as="script" rel="preload" href="/1-7cb956371c8918246f98.js"/><link as="script" rel="preload" href="/component---src-templates-post-js-3f961b54600d69423a32.js"/><link as="fetch" rel="preload" href="/static/d/836/path---2016-universal-inclusive-design-accessibility-3-a-9-73c-Qtg6m3gEjDJcThEUyieEXQ0kSY.json" crossorigin="use-credentials"/></head><body><noscript id="gatsby-noscript">This app works best with JavaScript enabled.</noscript><div id="___gatsby"><div style="outline:none" tabindex="-1" role="group"><header class="header" role="banner"><a class="header__title" href="/">Simon Finney</a><span class="header__subtitle">Front End Specialist</span><nav role="navigation"><ul class="header__ul"><li class="header__li"><a class="header__a" href="/posts">Posts</a></li></ul></nav></header><main role="main"><header><h1>Universal (inclusive) design and accessibility</h1><time dateTime="10 April, 2016"></time></header><article><p>For this post, I'm going to take a look at the principles of universal design,
+or inclusive design as it's more commonly known, and how it and accessibility
+can be applied to the current website in my final designs.</p>
+<h2 id="universal-design"><a href="#universal-design" aria-label="universal design permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Universal design</h2>
+<p>The Center for Universal Design describes the concept as follows:</p>
+<blockquote>
+<p>The design of products and environments to be usable by all people, to the
+greatest extent possible, without the need for adaptation or specialised
+design</p>
+</blockquote>
+<p>What this is saying is that the design of all products and environments should
+be agnostic and usable to the ability of all people, regardless of disabilities,
+without any assistance.</p>
+<p>By constantly planning and incorporating accessibility into your designs, it's
+possible to develop an interface that's accessible to all abilities and that
+provides the best experience across all technologies, including those that are
+assistive (Miller, 2016).</p>
+<p>By incorporating accessibility into a product's designs, it ultimately reaches
+more of any organisation's audience. You would think it would be in their best
+interest to take this on board, but in my experiences this isn't always the
+case!</p>
+<p>Below I've outlined some of the principles defined by the Center for Universal
+Design (1997) with regards to the current website, and provided recommendations
+for how these can be improved and implemented in my designs going forward.</p>
+<h3 id="equitable-use"><a href="#equitable-use" aria-label="equitable use permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Equitable Use</h3>
+<p>Equitable use is concerned with ensuring a design is both useful and marketable
+to people with diverse abilities. It's guidelines are as follows:</p>
+<ul>
+<li>1a. Provide the same means of use for all users: identical whenever possible;
+equivalent when not</li>
+<li>1b. Avoid segregating or stigmatising any users</li>
+<li>1c. Provisions for privacy, security, and safety should be equally available
+to all users</li>
+<li>1d. Make the design appealing to all users</li>
+</ul>
+<p>Currently <a href="https://www.tickets.ie" target="_blank" rel="noopener noreferrer">Tickets.ie</a> has a very limited colour palette
+(Numerous levels of grey and orange) which may not drastically affect users with
+colour blindness. If we invert the colours, we can also see that it performs for
+those sensitive to brightness, and easier to distinguish for those suffering
+from colour blindness:</p>
+<p><img src="../images/pages/universal-inclusive-design-accessibility/Tickets.ie_Equitable-Use.png" alt="Equitable Use - Problem"></p>
+<figcaption>Equitable Use - Problem</figcaption>
+<p>The most apparent issue lies in the distinguishability of links from other copy
+on the website, although the persistent monochromatic tones may render certain
+aspects of the website indistinguishable from others.</p>
+<p>We can see how <a href="http://www.yelp.com/dublin" target="_blank" rel="noopener noreferrer">Yelp</a> have accommodated for those
+with deuteranopia, a common form of colour blindness, by integrating a limited
+but effective colour palette to differentiate between different sections and
+navigation elements.</p>
+<p><img src="../images/pages/universal-inclusive-design-accessibility/Yelp_Equitable-Use.png" alt="Equitable Use - Solution"></p>
+<figcaption>Equitable Use - Solution</figcaption>
+<p>The final design will address the above issues by providing clear
+differentiation between navigation and copy through the use of type, the
+assistance of iconography, and the use of contrasting colours to differentiate
+separate sections.</p>
+<h3 id="flexibility-in-use"><a href="#flexibility-in-use" aria-label="flexibility in use permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Flexibility in Use</h3>
+<p>Flexibility in use refers to a design accommodating a a wide range of individual
+preferences and abilities. The recommended guidelines for this context are:</p>
+<ul>
+<li>2a. Provide choice in methods of use</li>
+<li>2b. Accommodate right or left-handed access and use</li>
+<li>2c. Facilitate the user's accuracy and precision</li>
+<li>2d. Provide adaptability to the user's pace</li>
+</ul>
+<p>Tickets.ie in it's current form, doesn't provide a whole lot of flexibility in
+terms of filtering down or sorting search results:</p>
+<p><img src="../images/pages/gaining-empathy/Tickets.ie.png" alt="Flexibility in Use"></p>
+<figcaption>Flexibility in Use - Problem</figcaption>
+<p>Providing flexibile filtering controls would allow the target audience choice in
+the methods they use, and pivot easily within their context at their own pace.</p>
+<p><img src="../images/pages/universal-inclusive-design-accessibility/Flexibility-in-Use.jpg" alt="Flexibility in Use"></p>
+<figcaption>Flexibility in Use - Solution</figcaption>
+<h3 id="simple-and-intuitive-use"><a href="#simple-and-intuitive-use" aria-label="simple and intuitive use permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Simple and Intuitive Use</h3>
+<p>It's also important that a design is easy to understand, regardless of the
+user's experience or knowledge:</p>
+<ul>
+<li>3a. Eliminate unnecessary complexity</li>
+<li>3b. Be consistent with user expectations and intuition</li>
+<li>3c. Accommodate a wide range of literacy and language skills</li>
+<li>3d. Arrange information consistent with its importance</li>
+<li>3e. Provide effective prompting and feedback during and after task completion</li>
+</ul>
+<p>The current website, as discussed in previous posts, operates in a funnel, and
+has appalling navigation between artists, events, and venues, a standard of
+which any web user expects today.</p>
+<p>As addressed in my post on
+<a href="/2016/3/27/information-architecture-content-strategy#information-architecture">information architecture and content strategy</a>,
+it's intended that the target audience will be able to manipulate the event
+listings purely by toggling on and off options of their choice, and users should
+be able to freely navigate between artists, events, and venues without getting
+trapped.</p>
+<h3 id="size-and-space-for-approach-and-use"><a href="#size-and-space-for-approach-and-use" aria-label="size and space for approach and use permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Size and Space for Approach and Use</h3>
+<p>The final principle is concerned with providing appropriate size and space when
+using a product, regardless of a user's body size, posture, or mobility:</p>
+<ul>
+<li>7a. Provide a clear line of sight to important elements for any seated or
+standing user</li>
+<li>7b. Make reach to all components comfortable for any seated or standing user</li>
+<li>7c. Accommodate variations in hand and grip size</li>
+<li>7d. Provide adequate space for the use of assistive devices or personal
+assistance</li>
+</ul>
+<p>The current Tickets.ie website is not optimised for mobile use, so therefore can
+be tricky to navigate while on a smartphone - the target audience would have to
+jump through hoops to view anything on the website, in particular pinching to
+zoom to access individual elements on the page and any specific controls or
+functionality.</p>
+<p>Regardless of left or right-handed users, any task would be difficult to
+achieve:</p>
+<p><img src="../images/pages/universal-inclusive-design-accessibility/Tickets.ie_Size-Space-Approach-Use.png" alt="Size and Space for Approach and Use - Problem"></p>
+<figcaption>Size and Space for Approach and Use - Problem</figcaption>
+<p>In an effort to minimise fatigue for the current website on mobile, I've drafted
+a quick solution below:</p>
+<p><img src="../images/pages/universal-inclusive-design-accessibility/Size-Space-Approach-Use.jpg" alt="Size and Space for Approach and Use - Solution"></p>
+<figcaption>Size and Space for Approach and Use - Solution</figcaption>
+<p>Key actions such as filtering and searching appear towards the bottom of the
+screen closer to the user, as floating action buttons - if these were located at
+the top of the screen, it may be hard to reach depending on whether you're left
+or right-handed.</p>
+<p>Switching between views would appear under the section's header as tabbed
+navigation - While this requires some effort, it's not completely out of reach
+for either handed individual.</p>
+<p>Finally, the events for selection are displayed as cards in a descending,
+scrollable list - this is more than suitable for anyone to manipulate and select
+the item they require.</p>
+<p>Now that I've addressed how some of the principles of universal design can be
+applied to my designs, I'll speak briefly about accessibility and how it can be
+considered in any web application.</p>
+<h2 id="accessibility"><a href="#accessibility" aria-label="accessibility permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Accessibility</h2>
+<p>To develop a modern software application that integrates advanced user interface
+controls and dynamic content, that's effectively accessible to users who rely on
+assistive technology such as screen readers,
+<a href="https://www.w3.org/WAI/intro/aria" target="_blank" rel="noopener noreferrer">Accessible Rich Internet Applications Suite (WAI-ARIA)</a>
+is employed (Cooper, 2016).</p>
+<p>To meet the criteria for accessibility standards, the current website was
+scanned using an accessibility policy tester, against a number of guidelines:</p>
+<p><img src="../images/pages/universal-inclusive-design-accessibility/Tickets.ie_Policy-testing.png" alt="Accessibility policy testing"></p>
+<figcaption>Accessibility policy testing</figcaption>
+<p>The results were astonishing - On one section of the website, there were <strong>113
+violations</strong> alone! These varied from severe violations like how the structure
+of certain elements on the page would prevent screen readers from navigating
+successfully throughout the content, to missing significant attributes on media
+and navigation elements that provide screen readers with valuable content
+descriptions for those with visual impairments.</p>
+<p>If you’re not suffering from a colour vision deficiency, it can be pretty hard
+to imagine what it looks like to be colour blind. Visual impairments can vary in
+severity, from colour vision deficiency which prevents those that live with it
+to identify change in colour (Miller, 2016), to those who can't discern any
+content, and rely on screen readers as their main interface with an application.</p>
+<p>While my final prototype will show a proof-of-concept and not go as far as fully
+engineering the application, below are a number of recommendations I've
+suggested for improvement:</p>
+<ul>
+<li>Text alternatives should be provided for any non-text content</li>
+<li>Ensure semantic HTML document structure is provided to allow screen readers
+navigate naturally throughout the document</li>
+<li>Make the contrast between colour of text and it's background distinguishable
+and legible</li>
+</ul>
+<p>With the last of considerations aside, I can continue with the design production
+process and finally start building!</p>
+<h2 id="next-steps"><a href="#next-steps" aria-label="next steps permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Next steps</h2>
+<p>My final post will detail the production process of my design and prototype
+using Adobe Illustrator and Experience Design - I'll walk through the typical
+flow for Eoin, our primary user, and incorporate all of the artifacts I've
+produced so far.</p>
+<p>I'll also discuss the usability test I conducted to evaluate the prototype's
+design, along with any materials produced.</p>
+<h2 id="references"><a href="#references" aria-label="references permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>References</h2>
+<ul>
+<li>Cooper, M. (2016). <em>WAI-ARIA Overview</em>. Retrieved April 4, 2016, from
+<a href="https://www.w3.org/WAI/intro/aria" target="_blank" rel="noopener noreferrer">https://www.w3.org/WAI/intro/aria</a></li>
+<li>Miller, M.E. (2016). <em>Top Ten Inclusive Design Lessons</em>. Retrieved April 4,
+2016, from
+<a href="http://ageandability.com/2016/01/14/top-ten-inclusive-design-lessons/" target="_blank" rel="noopener noreferrer">http://ageandability.com/2016/01/14/top-ten-inclusive-design-lessons/</a></li>
+<li>The Center for Universal Design (1997). <em>The Principles of Universal Design</em>
+(Version 2.0). NC State University.</li>
+</ul>
+<h2 id="resources"><a href="#resources" aria-label="resources permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Resources</h2>
+<p><a href="https://drive.google.com/open?id=1utChefMxn10Ti0ZI8Zm61DvWHg8naaMcKg" target="_blank" rel="noopener noreferrer">Flexibility in Use</a></p></article><footer><section class="footer__section--previous"><a href="/2016/cognitive-social-psychology/">Cognitive and social psychology</a></section><section class="footer__section--next"><a href="/2016/high-fidelity-solution/">High-fidelity solution</a></section></footer></main><aside><section><h3>Posts</h3><ol class="aside__list"><li><a title="17 April, 2016" href="/2016/high-fidelity-solution/">High-fidelity solution</a></li><li><a aria-current="page" title="10 April, 2016" class="" href="/2016/universal-inclusive-design-accessibility/">Universal (inclusive) design and accessibility</a></li><li><a title="3 April, 2016" href="/2016/cognitive-social-psychology/">Cognitive and social psychology</a></li><li><a title="27 March, 2016" href="/2016/information-architecture-content-strategy/">Information Architecture and Content Strategy</a></li><li><a title="20 March, 2016" href="/2016/gaining-empathy/">Gaining Empathy</a></li><li><a title="13 March, 2016" href="/2016/design-languages-pattern-libraries/">Design Languages and Pattern Libraries</a></li><li><a title="6 March, 2016" href="/2016/introduction/">Introduction</a></li></ol></section><section><h3>Contact</h3><ol class="aside__list"><li><a href="mailto:simonjfinney@gmail.com" rel="noopener noreferrer" target="_blank" data-icon="email">simonjfinney@gmail.com</a></li><li><a href="http://github.com/simonfinney" rel="noopener noreferrer" target="_blank" data-icon="github">GitHub</a></li><li><a href="http://codepen.io/simonfinney" rel="noopener noreferrer" target="_blank" data-icon="codepen">CodePen</a></li><li><a href="https://www.linkedin.com/in/simonfinney" rel="noopener noreferrer" target="_blank" data-icon="linkedin">LinkedIn</a></li><li><a href="http://medium.com/@simonfinney" rel="noopener noreferrer" target="_blank" data-icon="medium">Medium</a></li><li><a href="https://www.instagram.com/simonfinney" rel="noopener noreferrer" target="_blank" data-icon="instagram">Instagram</a></li></ol></section></aside></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.page={"componentChunkName":"component---src-templates-post-js","jsonName":"2016-universal-inclusive-design-accessibility-3a9","path":"/2016/universal-inclusive-design-accessibility/"};window.dataPath="836/path---2016-universal-inclusive-design-accessibility-3-a-9-73c-Qtg6m3gEjDJcThEUyieEXQ0kSY";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-dd4774857533c57510c8.js"],"component---src-templates-post-js":["/component---src-templates-post-js-3f961b54600d69423a32.js"],"component---src-templates-section-js":["/component---src-templates-section-js-0f0758f1e888ae6d8d26.js"],"component---src-pages-404-js":["/component---src-pages-404-js-ca32227518f5e4fddd1a.js"],"component---src-pages-posts-js":["/component---src-pages-posts-js-d400a05248cd46c6ccee.js"],"pages-manifest":["/pages-manifest-515e88eeb1e2ea547247.js"]};/*]]>*/</script><script src="/component---src-templates-post-js-3f961b54600d69423a32.js" async=""></script><script src="/1-7cb956371c8918246f98.js" async=""></script><script src="/styles-4a16ab0239b413334ebe.js" async=""></script><script src="/app-dd4774857533c57510c8.js" async=""></script><script src="/webpack-runtime-b7e92146ae246beaebc1.js" async=""></script></body></html>
