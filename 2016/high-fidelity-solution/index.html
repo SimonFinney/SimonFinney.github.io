@@ -1,8 +1,14 @@
-<!DOCTYPE html><html dir="ltr" lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style data-href="/styles.d229057708ffc607efd6.css">@media (prefers-color-scheme:dark){:root{--background:#161616;--brand--primary:#4589ff;--brand--secondary:#262626;--text:#fff}}a{font-weight:600;text-decoration:none;color:var(--brand--primary,#0f62fe);fill:currentColor;transition:.1s;-webkit-text-decoration-skip:ink;text-decoration-skip-ink:auto}a[data-icon=codepen]:before{-webkit-mask-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHBhdGggZD0iTTI5LjU1NSAxMS41MDFsLTE0LTkuMzMzYTEgMSAwIDAgMC0xLjEwOSAwbC0xNCA5LjMzM2ExIDEgMCAwIDAtLjQ0NS44MzJ2OS4zMzNhMSAxIDAgMCAwIC40NDUuODMybDE0IDkuMzMzYS45OTguOTk4IDAgMCAwIDEuMTEgMGwxNC05LjMzM2ExIDEgMCAwIDAgLjQ0NS0uODMydi05LjMzM2ExIDEgMCAwIDAtLjQ0NS0uODMyek0xNSAyMC40NjVMOS44MDMgMTcgMTUgMTMuNTM1IDIwLjE5NyAxNyAxNSAyMC40NjV6bTEtOC42Njd2LTYuOTNsMTEuMTk3IDcuNDY1TDIyIDE1Ljc5OGwtNi00em0tMiAwbC02IDQtNS4xOTctMy40NjVMMTQgNC44Njh2Ni45M3pNNi4xOTcgMTdMMiAxOS43OTh2LTUuNTk2TDYuMTk3IDE3ek04IDE4LjIwMmw2IDR2Ni45M0wyLjgwMyAyMS42NjcgOCAxOC4yMDJ6bTggNGw2LTQgNS4xOTcgMy40NjVMMTYgMjkuMTMydi02Ljkzek0yMy44MDMgMTdMMjggMTQuMjAydjUuNTk2TDIzLjgwMyAxN3oiLz48L3N2Zz4=);mask-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHBhdGggZD0iTTI5LjU1NSAxMS41MDFsLTE0LTkuMzMzYTEgMSAwIDAgMC0xLjEwOSAwbC0xNCA5LjMzM2ExIDEgMCAwIDAtLjQ0NS44MzJ2OS4zMzNhMSAxIDAgMCAwIC40NDUuODMybDE0IDkuMzMzYS45OTguOTk4IDAgMCAwIDEuMTEgMGwxNC05LjMzM2ExIDEgMCAwIDAgLjQ0NS0uODMydi05LjMzM2ExIDEgMCAwIDAtLjQ0NS0uODMyek0xNSAyMC40NjVMOS44MDMgMTcgMTUgMTMuNTM1IDIwLjE5NyAxNyAxNSAyMC40NjV6bTEtOC42Njd2LTYuOTNsMTEuMTk3IDcuNDY1TDIyIDE1Ljc5OGwtNi00em0tMiAwbC02IDQtNS4xOTctMy40NjVMMTQgNC44Njh2Ni45M3pNNi4xOTcgMTdMMiAxOS43OTh2LTUuNTk2TDYuMTk3IDE3ek04IDE4LjIwMmw2IDR2Ni45M0wyLjgwMyAyMS42NjcgOCAxOC4yMDJ6bTggNGw2LTQgNS4xOTcgMy40NjVMMTYgMjkuMTMydi02Ljkzek0yMy44MDMgMTdMMjggMTQuMjAydjUuNTk2TDIzLjgwMyAxN3oiLz48L3N2Zz4=)}a[data-icon=email]:before{-webkit-mask-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHBhdGggZD0iTTMyIDEyLjY3OXYxNC4xNzlxMCAxLjE3OS0uODM5IDIuMDE4dC0yLjAxOC44MzlIMi44NTdxLTEuMTc5IDAtMi4wMTgtLjgzOVQwIDI2Ljg1OFYxMi42NzlxLjc4Ni44NzUgMS44MDQgMS41NTQgNi40NjQgNC4zOTMgOC44NzUgNi4xNjEgMS4wMTguNzUgMS42NTIgMS4xN3QxLjY4OC44NTcgMS45NjQuNDM4aC4wMzZxLjkxMSAwIDEuOTY0LS40Mzh0MS42ODgtLjg1NyAxLjY1Mi0xLjE3cTMuMDM2LTIuMTk2IDguODkzLTYuMTYxIDEuMDE4LS42OTYgMS43ODYtMS41NTR6bTAtNS4yNXEwIDEuNDExLS44NzUgMi42OTZ0LTIuMTc5IDIuMTk2cS02LjcxNCA0LjY2MS04LjM1NyA1LjgwNC0uMTc5LjEyNS0uNzU5LjU0NXQtLjk2NC42NzktLjkyOS41OC0xLjAyNy40ODItLjg5My4xNjFoLS4wMzZxLS40MTEgMC0uODkzLS4xNjF0LTEuMDI3LS40ODItLjkyOS0uNTgtLjk2NC0uNjc5LS43NTktLjU0NXEtMS42MjUtMS4xNDMtNC42NzktMy4yNTl0LTMuNjYxLTIuNTQ1cS0xLjEwNy0uNzUtMi4wODktMi4wNjNULS4wMDIgNy44MnEwLTEuMzkzLjc0MS0yLjMyMXQyLjExNi0uOTI5aDI2LjI4NnExLjE2MSAwIDIuMDA5LjgzOXQuODQ4IDIuMDE4eiIvPjwvc3ZnPg==);mask-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHBhdGggZD0iTTMyIDEyLjY3OXYxNC4xNzlxMCAxLjE3OS0uODM5IDIuMDE4dC0yLjAxOC44MzlIMi44NTdxLTEuMTc5IDAtMi4wMTgtLjgzOVQwIDI2Ljg1OFYxMi42NzlxLjc4Ni44NzUgMS44MDQgMS41NTQgNi40NjQgNC4zOTMgOC44NzUgNi4xNjEgMS4wMTguNzUgMS42NTIgMS4xN3QxLjY4OC44NTcgMS45NjQuNDM4aC4wMzZxLjkxMSAwIDEuOTY0LS40Mzh0MS42ODgtLjg1NyAxLjY1Mi0xLjE3cTMuMDM2LTIuMTk2IDguODkzLTYuMTYxIDEuMDE4LS42OTYgMS43ODYtMS41NTR6bTAtNS4yNXEwIDEuNDExLS44NzUgMi42OTZ0LTIuMTc5IDIuMTk2cS02LjcxNCA0LjY2MS04LjM1NyA1LjgwNC0uMTc5LjEyNS0uNzU5LjU0NXQtLjk2NC42NzktLjkyOS41OC0xLjAyNy40ODItLjg5My4xNjFoLS4wMzZxLS40MTEgMC0uODkzLS4xNjF0LTEuMDI3LS40ODItLjkyOS0uNTgtLjk2NC0uNjc5LS43NTktLjU0NXEtMS42MjUtMS4xNDMtNC42NzktMy4yNTl0LTMuNjYxLTIuNTQ1cS0xLjEwNy0uNzUtMi4wODktMi4wNjNULS4wMDIgNy44MnEwLTEuMzkzLjc0MS0yLjMyMXQyLjExNi0uOTI5aDI2LjI4NnExLjE2MSAwIDIuMDA5LjgzOXQuODQ4IDIuMDE4eiIvPjwvc3ZnPg==)}a[data-icon=github]:before{-webkit-mask-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHBhdGggZD0iTTE2IC4zOTVjLTguODM2IDAtMTYgNy4xNjMtMTYgMTYgMCA3LjA2OSA0LjU4NSAxMy4wNjcgMTAuOTQyIDE1LjE4Mi44LjE0OCAxLjA5NC0uMzQ3IDEuMDk0LS43NyAwLS4zODEtLjAxNS0xLjY0Mi0uMDIyLTIuOTc5LTQuNDUyLjk2OC01LjM5MS0xLjg4OC01LjM5MS0xLjg4OC0uNzI4LTEuODQ5LTEuNzc2LTIuMzQxLTEuNzc2LTIuMzQxLTEuNDUyLS45OTMuMTEtLjk3My4xMS0uOTczIDEuNjA2LjExMyAyLjQ1MiAxLjY0OSAyLjQ1MiAxLjY0OSAxLjQyNyAyLjQ0NiAzLjc0MyAxLjczOSA0LjY1NiAxLjMzLjE0My0xLjAzNC41NTgtMS43NCAxLjAxNi0yLjE0LTMuNTU0LS40MDQtNy4yOS0xLjc3Ny03LjI5LTcuOTA3IDAtMS43NDcuNjI1LTMuMTc0IDEuNjQ5LTQuMjk1LS4xNjYtLjQwMy0uNzE0LTIuMDMuMTU1LTQuMjM0IDAgMCAxLjM0NC0uNDMgNC40MDEgMS42NGExNS4zNTMgMTUuMzUzIDAgMCAxIDQuMDA1LS41MzljMS4zNTkuMDA2IDIuNzI5LjE4NCA0LjAwOC41MzkgMy4wNTQtMi4wNyA0LjM5NS0xLjY0IDQuMzk1LTEuNjQuODcxIDIuMjA0LjMyMyAzLjgzMS4xNTcgNC4yMzQgMS4wMjYgMS4xMiAxLjY0NyAyLjU0OCAxLjY0NyA0LjI5NSAwIDYuMTQ1LTMuNzQzIDcuNDk4LTcuMzA2IDcuODk1LjU3NC40OTcgMS4wODUgMS40NyAxLjA4NSAyLjk2MyAwIDIuMTQxLS4wMTkgMy44NjQtLjAxOSA0LjM5MSAwIC40MjYuMjg4LjkyNSAxLjA5OS43NjhDMjcuNDIxIDI5LjQ1NyAzMiAyMy40NjIgMzIgMTYuMzk1YzAtOC44MzctNy4xNjQtMTYtMTYtMTZ6Ii8+PC9zdmc+);mask-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHBhdGggZD0iTTE2IC4zOTVjLTguODM2IDAtMTYgNy4xNjMtMTYgMTYgMCA3LjA2OSA0LjU4NSAxMy4wNjcgMTAuOTQyIDE1LjE4Mi44LjE0OCAxLjA5NC0uMzQ3IDEuMDk0LS43NyAwLS4zODEtLjAxNS0xLjY0Mi0uMDIyLTIuOTc5LTQuNDUyLjk2OC01LjM5MS0xLjg4OC01LjM5MS0xLjg4OC0uNzI4LTEuODQ5LTEuNzc2LTIuMzQxLTEuNzc2LTIuMzQxLTEuNDUyLS45OTMuMTEtLjk3My4xMS0uOTczIDEuNjA2LjExMyAyLjQ1MiAxLjY0OSAyLjQ1MiAxLjY0OSAxLjQyNyAyLjQ0NiAzLjc0MyAxLjczOSA0LjY1NiAxLjMzLjE0My0xLjAzNC41NTgtMS43NCAxLjAxNi0yLjE0LTMuNTU0LS40MDQtNy4yOS0xLjc3Ny03LjI5LTcuOTA3IDAtMS43NDcuNjI1LTMuMTc0IDEuNjQ5LTQuMjk1LS4xNjYtLjQwMy0uNzE0LTIuMDMuMTU1LTQuMjM0IDAgMCAxLjM0NC0uNDMgNC40MDEgMS42NGExNS4zNTMgMTUuMzUzIDAgMCAxIDQuMDA1LS41MzljMS4zNTkuMDA2IDIuNzI5LjE4NCA0LjAwOC41MzkgMy4wNTQtMi4wNyA0LjM5NS0xLjY0IDQuMzk1LTEuNjQuODcxIDIuMjA0LjMyMyAzLjgzMS4xNTcgNC4yMzQgMS4wMjYgMS4xMiAxLjY0NyAyLjU0OCAxLjY0NyA0LjI5NSAwIDYuMTQ1LTMuNzQzIDcuNDk4LTcuMzA2IDcuODk1LjU3NC40OTcgMS4wODUgMS40NyAxLjA4NSAyLjk2MyAwIDIuMTQxLS4wMTkgMy44NjQtLjAxOSA0LjM5MSAwIC40MjYuMjg4LjkyNSAxLjA5OS43NjhDMjcuNDIxIDI5LjQ1NyAzMiAyMy40NjIgMzIgMTYuMzk1YzAtOC44MzctNy4xNjQtMTYtMTYtMTZ6Ii8+PC9zdmc+)}a[data-icon=instagram]:before{-webkit-mask-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHBhdGggZD0iTTE2IDIuODgxYzQuMjc1IDAgNC43ODEuMDE5IDYuNDYyLjA5NCAxLjU2My4wNjkgMi40MDYuMzMxIDIuOTY5LjU1YTQuOTUyIDQuOTUyIDAgMCAxIDEuODM3IDEuMTk0IDUuMDE1IDUuMDE1IDAgMCAxIDEuMiAxLjgzOGMuMjE5LjU2My40ODEgMS40MTIuNTUgMi45NjkuMDc1IDEuNjg4LjA5NCAyLjE5NC4wOTQgNi40NjNzLS4wMTkgNC43ODEtLjA5NCA2LjQ2M2MtLjA2OSAxLjU2My0uMzMxIDIuNDA2LS41NSAyLjk2OWE0Ljk0IDQuOTQgMCAwIDEtMS4xOTQgMS44MzcgNS4wMiA1LjAyIDAgMCAxLTEuODM3IDEuMmMtLjU2My4yMTktMS40MTMuNDgxLTIuOTY5LjU1LTEuNjg4LjA3NS0yLjE5NC4wOTQtNi40NjMuMDk0cy00Ljc4MS0uMDE5LTYuNDYzLS4wOTRjLTEuNTYzLS4wNjktMi40MDYtLjMzMS0yLjk2OS0uNTVhNC45NTIgNC45NTIgMCAwIDEtMS44MzgtMS4xOTQgNS4wMiA1LjAyIDAgMCAxLTEuMi0xLjgzN2MtLjIxOS0uNTYzLS40ODEtMS40MTMtLjU1LTIuOTY5LS4wNzUtMS42ODgtLjA5NC0yLjE5NC0uMDk0LTYuNDYzcy4wMTktNC43ODEuMDk0LTYuNDYzYy4wNjktMS41NjMuMzMxLTIuNDA2LjU1LTIuOTY5YTQuOTY0IDQuOTY0IDAgMCAxIDEuMTk0LTEuODM4IDUuMDE1IDUuMDE1IDAgMCAxIDEuODM4LTEuMmMuNTYzLS4yMTkgMS40MTItLjQ4MSAyLjk2OS0uNTUgMS42ODEtLjA3NSAyLjE4OC0uMDk0IDYuNDYzLS4wOTR6TTE2IDBjLTQuMzQ0IDAtNC44ODcuMDE5LTYuNTk0LjA5NC0xLjcuMDc1LTIuODY5LjM1LTMuODgxLjc0NC0xLjA1Ni40MTItMS45NS45NTYtMi44MzcgMS44NWE3LjgzMyA3LjgzMyAwIDAgMC0xLjg1IDIuODMxQy40NDQgNi41MzguMTY5IDcuNy4wOTQgOS40LjAxOSAxMS4xMTMgMCAxMS42NTYgMCAxNnMuMDE5IDQuODg3LjA5NCA2LjU5NGMuMDc1IDEuNy4zNSAyLjg2OS43NDQgMy44ODEuNDEzIDEuMDU2Ljk1NiAxLjk1IDEuODUgMi44MzdhNy44MiA3LjgyIDAgMCAwIDIuODMxIDEuODQ0YzEuMDE5LjM5NCAyLjE4MS42NjkgMy44ODEuNzQ0IDEuNzA2LjA3NSAyLjI1LjA5NCA2LjU5NC4wOTRzNC44ODgtLjAxOSA2LjU5NC0uMDk0YzEuNy0uMDc1IDIuODY5LS4zNSAzLjg4MS0uNzQ0IDEuMDUtLjQwNiAxLjk0NC0uOTU2IDIuODMxLTEuODQ0czEuNDM4LTEuNzgxIDEuODQ0LTIuODMxYy4zOTQtMS4wMTkuNjY5LTIuMTgxLjc0NC0zLjg4MS4wNzUtMS43MDYuMDk0LTIuMjUuMDk0LTYuNTk0cy0uMDE5LTQuODg3LS4wOTQtNi41OTRjLS4wNzUtMS43LS4zNS0yLjg2OS0uNzQ0LTMuODgxYTcuNTA2IDcuNTA2IDAgMCAwLTEuODMxLTIuODQ0QTcuODIgNy44MiAwIDAgMCAyNi40ODIuODQzQzI1LjQ2My40NDkgMjQuMzAxLjE3NCAyMi42MDEuMDk5Yy0xLjcxMi0uMDgxLTIuMjU2LS4xLTYuNi0uMXoiLz48cGF0aCBkPSJNMTYgNy43ODFjLTQuNTM3IDAtOC4yMTkgMy42ODEtOC4yMTkgOC4yMTlzMy42ODEgOC4yMTkgOC4yMTkgOC4yMTkgOC4yMTktMy42ODEgOC4yMTktOC4yMTlBOC4yMjEgOC4yMjEgMCAwIDAgMTYgNy43ODF6bTAgMTMuNTVhNS4zMzEgNS4zMzEgMCAxIDEgMC0xMC42NjMgNS4zMzEgNS4zMzEgMCAwIDEgMCAxMC42NjN6TTI2LjQ2MiA3LjQ1NmExLjkxOSAxLjkxOSAwIDEgMS0zLjgzOCAwIDEuOTE5IDEuOTE5IDAgMCAxIDMuODM4IDB6Ii8+PC9zdmc+);mask-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHBhdGggZD0iTTE2IDIuODgxYzQuMjc1IDAgNC43ODEuMDE5IDYuNDYyLjA5NCAxLjU2My4wNjkgMi40MDYuMzMxIDIuOTY5LjU1YTQuOTUyIDQuOTUyIDAgMCAxIDEuODM3IDEuMTk0IDUuMDE1IDUuMDE1IDAgMCAxIDEuMiAxLjgzOGMuMjE5LjU2My40ODEgMS40MTIuNTUgMi45NjkuMDc1IDEuNjg4LjA5NCAyLjE5NC4wOTQgNi40NjNzLS4wMTkgNC43ODEtLjA5NCA2LjQ2M2MtLjA2OSAxLjU2My0uMzMxIDIuNDA2LS41NSAyLjk2OWE0Ljk0IDQuOTQgMCAwIDEtMS4xOTQgMS44MzcgNS4wMiA1LjAyIDAgMCAxLTEuODM3IDEuMmMtLjU2My4yMTktMS40MTMuNDgxLTIuOTY5LjU1LTEuNjg4LjA3NS0yLjE5NC4wOTQtNi40NjMuMDk0cy00Ljc4MS0uMDE5LTYuNDYzLS4wOTRjLTEuNTYzLS4wNjktMi40MDYtLjMzMS0yLjk2OS0uNTVhNC45NTIgNC45NTIgMCAwIDEtMS44MzgtMS4xOTQgNS4wMiA1LjAyIDAgMCAxLTEuMi0xLjgzN2MtLjIxOS0uNTYzLS40ODEtMS40MTMtLjU1LTIuOTY5LS4wNzUtMS42ODgtLjA5NC0yLjE5NC0uMDk0LTYuNDYzcy4wMTktNC43ODEuMDk0LTYuNDYzYy4wNjktMS41NjMuMzMxLTIuNDA2LjU1LTIuOTY5YTQuOTY0IDQuOTY0IDAgMCAxIDEuMTk0LTEuODM4IDUuMDE1IDUuMDE1IDAgMCAxIDEuODM4LTEuMmMuNTYzLS4yMTkgMS40MTItLjQ4MSAyLjk2OS0uNTUgMS42ODEtLjA3NSAyLjE4OC0uMDk0IDYuNDYzLS4wOTR6TTE2IDBjLTQuMzQ0IDAtNC44ODcuMDE5LTYuNTk0LjA5NC0xLjcuMDc1LTIuODY5LjM1LTMuODgxLjc0NC0xLjA1Ni40MTItMS45NS45NTYtMi44MzcgMS44NWE3LjgzMyA3LjgzMyAwIDAgMC0xLjg1IDIuODMxQy40NDQgNi41MzguMTY5IDcuNy4wOTQgOS40LjAxOSAxMS4xMTMgMCAxMS42NTYgMCAxNnMuMDE5IDQuODg3LjA5NCA2LjU5NGMuMDc1IDEuNy4zNSAyLjg2OS43NDQgMy44ODEuNDEzIDEuMDU2Ljk1NiAxLjk1IDEuODUgMi44MzdhNy44MiA3LjgyIDAgMCAwIDIuODMxIDEuODQ0YzEuMDE5LjM5NCAyLjE4MS42NjkgMy44ODEuNzQ0IDEuNzA2LjA3NSAyLjI1LjA5NCA2LjU5NC4wOTRzNC44ODgtLjAxOSA2LjU5NC0uMDk0YzEuNy0uMDc1IDIuODY5LS4zNSAzLjg4MS0uNzQ0IDEuMDUtLjQwNiAxLjk0NC0uOTU2IDIuODMxLTEuODQ0czEuNDM4LTEuNzgxIDEuODQ0LTIuODMxYy4zOTQtMS4wMTkuNjY5LTIuMTgxLjc0NC0zLjg4MS4wNzUtMS43MDYuMDk0LTIuMjUuMDk0LTYuNTk0cy0uMDE5LTQuODg3LS4wOTQtNi41OTRjLS4wNzUtMS43LS4zNS0yLjg2OS0uNzQ0LTMuODgxYTcuNTA2IDcuNTA2IDAgMCAwLTEuODMxLTIuODQ0QTcuODIgNy44MiAwIDAgMCAyNi40ODIuODQzQzI1LjQ2My40NDkgMjQuMzAxLjE3NCAyMi42MDEuMDk5Yy0xLjcxMi0uMDgxLTIuMjU2LS4xLTYuNi0uMXoiLz48cGF0aCBkPSJNMTYgNy43ODFjLTQuNTM3IDAtOC4yMTkgMy42ODEtOC4yMTkgOC4yMTlzMy42ODEgOC4yMTkgOC4yMTkgOC4yMTkgOC4yMTktMy42ODEgOC4yMTktOC4yMTlBOC4yMjEgOC4yMjEgMCAwIDAgMTYgNy43ODF6bTAgMTMuNTVhNS4zMzEgNS4zMzEgMCAxIDEgMC0xMC42NjMgNS4zMzEgNS4zMzEgMCAwIDEgMCAxMC42NjN6TTI2LjQ2MiA3LjQ1NmExLjkxOSAxLjkxOSAwIDEgMS0zLjgzOCAwIDEuOTE5IDEuOTE5IDAgMCAxIDMuODM4IDB6Ii8+PC9zdmc+)}a[data-icon=linkedin]:before{-webkit-mask-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHBhdGggZD0iTTI5IDBIM0MxLjM1IDAgMCAxLjM1IDAgM3YyNmMwIDEuNjUgMS4zNSAzIDMgM2gyNmMxLjY1IDAgMy0xLjM1IDMtM1YzYzAtMS42NS0xLjM1LTMtMy0zek0xMiAyNkg4VjEyaDR2MTR6bS0yLTE2Yy0xLjEwNiAwLTItLjg5NC0yLTJzLjg5NC0yIDItMmMxLjEwNiAwIDIgLjg5NCAyIDJzLS44OTQgMi0yIDJ6bTE2IDE2aC00di04YzAtMS4xMDYtLjg5NC0yLTItMnMtMiAuODk0LTIgMnY4aC00VjEyaDR2Mi40ODFDMTguODI1IDEzLjM1IDIwLjA4NyAxMiAyMS41IDEyYzIuNDg4IDAgNC41IDIuMjM4IDQuNSA1djl6Ii8+PC9zdmc+);mask-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHBhdGggZD0iTTI5IDBIM0MxLjM1IDAgMCAxLjM1IDAgM3YyNmMwIDEuNjUgMS4zNSAzIDMgM2gyNmMxLjY1IDAgMy0xLjM1IDMtM1YzYzAtMS42NS0xLjM1LTMtMy0zek0xMiAyNkg4VjEyaDR2MTR6bS0yLTE2Yy0xLjEwNiAwLTItLjg5NC0yLTJzLjg5NC0yIDItMmMxLjEwNiAwIDIgLjg5NCAyIDJzLS44OTQgMi0yIDJ6bTE2IDE2aC00di04YzAtMS4xMDYtLjg5NC0yLTItMnMtMiAuODk0LTIgMnY4aC00VjEyaDR2Mi40ODFDMTguODI1IDEzLjM1IDIwLjA4NyAxMiAyMS41IDEyYzIuNDg4IDAgNC41IDIuMjM4IDQuNSA1djl6Ii8+PC9zdmc+)}a[data-icon=twitter]:before{-webkit-mask-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHBhdGggZD0iTTMyIDcuMDc1YTEyLjk0MSAxMi45NDEgMCAwIDEtMy43NjkgMS4wMzEgNi42MDEgNi42MDEgMCAwIDAgMi44ODctMy42MzEgMTMuMjEgMTMuMjEgMCAwIDEtNC4xNjkgMS41OTRBNi41NjUgNi41NjUgMCAwIDAgMjIuMTU1IDRhNi41NjMgNi41NjMgMCAwIDAtNi41NjMgNi41NjNjMCAuNTEyLjA1NiAxLjAxMi4xNjkgMS40OTRBMTguNjM1IDE4LjYzNSAwIDAgMSAyLjIzIDUuMTk1YTYuNTYgNi41NiAwIDAgMC0uODg3IDMuMyA2LjU1NyA2LjU1NyAwIDAgMCAyLjkxOSA1LjQ2MyA2LjU2NSA2LjU2NSAwIDAgMS0yLjk3NS0uODE5di4wODFhNi41NjUgNi41NjUgMCAwIDAgNS4yNjkgNi40MzcgNi41NzQgNi41NzQgMCAwIDEtMi45NjguMTEyIDYuNTg4IDYuNTg4IDAgMCAwIDYuMTMxIDQuNTYzIDEzLjE3IDEzLjE3IDAgMCAxLTkuNzI1IDIuNzE5IDE4LjU2OCAxOC41NjggMCAwIDAgMTAuMDY5IDIuOTVjMTIuMDc1IDAgMTguNjgxLTEwLjAwNiAxOC42ODEtMTguNjgxIDAtLjI4Ny0uMDA2LS41NjktLjAxOS0uODVBMTMuMjE2IDEzLjIxNiAwIDAgMCAzMiA3LjA3NnoiLz48L3N2Zz4=);mask-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHBhdGggZD0iTTMyIDcuMDc1YTEyLjk0MSAxMi45NDEgMCAwIDEtMy43NjkgMS4wMzEgNi42MDEgNi42MDEgMCAwIDAgMi44ODctMy42MzEgMTMuMjEgMTMuMjEgMCAwIDEtNC4xNjkgMS41OTRBNi41NjUgNi41NjUgMCAwIDAgMjIuMTU1IDRhNi41NjMgNi41NjMgMCAwIDAtNi41NjMgNi41NjNjMCAuNTEyLjA1NiAxLjAxMi4xNjkgMS40OTRBMTguNjM1IDE4LjYzNSAwIDAgMSAyLjIzIDUuMTk1YTYuNTYgNi41NiAwIDAgMC0uODg3IDMuMyA2LjU1NyA2LjU1NyAwIDAgMCAyLjkxOSA1LjQ2MyA2LjU2NSA2LjU2NSAwIDAgMS0yLjk3NS0uODE5di4wODFhNi41NjUgNi41NjUgMCAwIDAgNS4yNjkgNi40MzcgNi41NzQgNi41NzQgMCAwIDEtMi45NjguMTEyIDYuNTg4IDYuNTg4IDAgMCAwIDYuMTMxIDQuNTYzIDEzLjE3IDEzLjE3IDAgMCAxLTkuNzI1IDIuNzE5IDE4LjU2OCAxOC41NjggMCAwIDAgMTAuMDY5IDIuOTVjMTIuMDc1IDAgMTguNjgxLTEwLjAwNiAxOC42ODEtMTguNjgxIDAtLjI4Ny0uMDA2LS41NjktLjAxOS0uODVBMTMuMjE2IDEzLjIxNiAwIDAgMCAzMiA3LjA3NnoiLz48L3N2Zz4=)}a:focus,a:hover{text-decoration:underline}a[data-icon]:before{display:inline-block;width:16px;height:16px;margin-right:8px;vertical-align:middle;background-color:var(--text,#161616);content:""}@media print{a[data-icon]:before{display:none}}@media only screen and (min-width:){aside{float:left;width:33%}}blockquote{position:relative;margin-left:0;padding-right:16px;padding-left:16px;font-style:italic}blockquote:before{display:inline-block;position:absolute;top:0;left:0;width:4px;height:100%;background-color:var(--brand--primary,#0f62fe);content:""}body{max-width:1024px;margin-right:auto;margin-left:auto;padding:0 32px;background-color:var(--background,#fff)}figcaption{font-size:12px;font-size:.75rem}footer{overflow:auto}h1,h2{color:var(--brand--primary,#0f62fe)}h1,h2,h3,html{font-weight:300}html{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;line-height:1.5;letter-spacing:.00625rem;color:var(--text,#161616);-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased}@media only screen and (min-width:60rem){main{float:left;width:calc(66% - 32px);margin-right:32px}}ol{padding-left:16px}strong{font-weight:600}ul{padding-left:16px}.articles{padding:0;list-style:none}.articles>li{display:inline-block;padding-top:4px;padding-bottom:4px;border-bottom:2px solid var(--brand--secondary,#f4f4f4)}.articles>li:first-of-type{border-top:2px solid var(--brand--secondary,#f4f4f4)}.aside__list{padding-left:0;list-style:none}@media print{.aside__list{list-style:initial}}.footer__section--next,.footer__section--previous{width:calc(50% - 16px)}.footer__section--next{float:right;margin-left:16px;text-align:right}.footer__section--previous{float:left;margin-right:16px}.header{border-bottom:4px solid var(--brand--secondary,#f4f4f4)}.header__title{font-size:32px;font-size:2rem;display:block;margin-top:32px;margin-bottom:4px;font-weight:300}.header__subtitle{display:block}.header__ul{padding-left:0}@media print{.header__ul{display:none}}.header__li{display:inline-block;margin-right:16px}.header__a{color:var(--text,#161616)}.header__a--active,.header__a:focus,.header__a:hover{color:var(--brand--primary,#0f62fe)}.header__a:focus,.header__a:hover{text-decoration:initial}.services{overflow:auto;padding-left:0;list-style:none}.services>li{display:inline-block;margin-right:8px;margin-bottom:8px;padding:8px;background-color:var(--brand--secondary,#f4f4f4)}@media print{.services>li{font-weight:600}}</style><meta name="generator" content="Gatsby 2.4.3"/><title data-react-helmet="true">High-fidelity solution — Simon Finney</title><meta data-react-helmet="true" name="description" content=""/><style type="text/css">
-    .anchor {
-      float: left;
+<!DOCTYPE html><html dir="ltr" lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style data-href="/styles.520763e4987cf589a487.css">@media (prefers-color-scheme:dark){:root{--background:#161616;--brand--primary:#4589ff;--brand--secondary:#262626;--text:#fff}}@media print{:root{--background:#fff;--brand--primary:#0f62fe;--brand--secondary:#f4f4f4;--text:#161616}}a{font-weight:600;text-decoration:none;color:var(--brand--primary,#0f62fe);fill:currentColor;transition:.1s;-webkit-text-decoration-skip:ink;text-decoration-skip-ink:auto}a[data-icon=codepen]:before{-webkit-mask-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHBhdGggZD0iTTI5LjU1NSAxMS41MDFsLTE0LTkuMzMzYTEgMSAwIDAgMC0xLjEwOSAwbC0xNCA5LjMzM2ExIDEgMCAwIDAtLjQ0NS44MzJ2OS4zMzNhMSAxIDAgMCAwIC40NDUuODMybDE0IDkuMzMzYS45OTguOTk4IDAgMCAwIDEuMTEgMGwxNC05LjMzM2ExIDEgMCAwIDAgLjQ0NS0uODMydi05LjMzM2ExIDEgMCAwIDAtLjQ0NS0uODMyek0xNSAyMC40NjVMOS44MDMgMTcgMTUgMTMuNTM1IDIwLjE5NyAxNyAxNSAyMC40NjV6bTEtOC42Njd2LTYuOTNsMTEuMTk3IDcuNDY1TDIyIDE1Ljc5OGwtNi00em0tMiAwbC02IDQtNS4xOTctMy40NjVMMTQgNC44Njh2Ni45M3pNNi4xOTcgMTdMMiAxOS43OTh2LTUuNTk2TDYuMTk3IDE3ek04IDE4LjIwMmw2IDR2Ni45M0wyLjgwMyAyMS42NjcgOCAxOC4yMDJ6bTggNGw2LTQgNS4xOTcgMy40NjVMMTYgMjkuMTMydi02Ljkzek0yMy44MDMgMTdMMjggMTQuMjAydjUuNTk2TDIzLjgwMyAxN3oiLz48L3N2Zz4=);mask-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHBhdGggZD0iTTI5LjU1NSAxMS41MDFsLTE0LTkuMzMzYTEgMSAwIDAgMC0xLjEwOSAwbC0xNCA5LjMzM2ExIDEgMCAwIDAtLjQ0NS44MzJ2OS4zMzNhMSAxIDAgMCAwIC40NDUuODMybDE0IDkuMzMzYS45OTguOTk4IDAgMCAwIDEuMTEgMGwxNC05LjMzM2ExIDEgMCAwIDAgLjQ0NS0uODMydi05LjMzM2ExIDEgMCAwIDAtLjQ0NS0uODMyek0xNSAyMC40NjVMOS44MDMgMTcgMTUgMTMuNTM1IDIwLjE5NyAxNyAxNSAyMC40NjV6bTEtOC42Njd2LTYuOTNsMTEuMTk3IDcuNDY1TDIyIDE1Ljc5OGwtNi00em0tMiAwbC02IDQtNS4xOTctMy40NjVMMTQgNC44Njh2Ni45M3pNNi4xOTcgMTdMMiAxOS43OTh2LTUuNTk2TDYuMTk3IDE3ek04IDE4LjIwMmw2IDR2Ni45M0wyLjgwMyAyMS42NjcgOCAxOC4yMDJ6bTggNGw2LTQgNS4xOTcgMy40NjVMMTYgMjkuMTMydi02Ljkzek0yMy44MDMgMTdMMjggMTQuMjAydjUuNTk2TDIzLjgwMyAxN3oiLz48L3N2Zz4=)}a[data-icon=email]:before{-webkit-mask-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHBhdGggZD0iTTMyIDEyLjY3OXYxNC4xNzlxMCAxLjE3OS0uODM5IDIuMDE4dC0yLjAxOC44MzlIMi44NTdxLTEuMTc5IDAtMi4wMTgtLjgzOVQwIDI2Ljg1OFYxMi42NzlxLjc4Ni44NzUgMS44MDQgMS41NTQgNi40NjQgNC4zOTMgOC44NzUgNi4xNjEgMS4wMTguNzUgMS42NTIgMS4xN3QxLjY4OC44NTcgMS45NjQuNDM4aC4wMzZxLjkxMSAwIDEuOTY0LS40Mzh0MS42ODgtLjg1NyAxLjY1Mi0xLjE3cTMuMDM2LTIuMTk2IDguODkzLTYuMTYxIDEuMDE4LS42OTYgMS43ODYtMS41NTR6bTAtNS4yNXEwIDEuNDExLS44NzUgMi42OTZ0LTIuMTc5IDIuMTk2cS02LjcxNCA0LjY2MS04LjM1NyA1LjgwNC0uMTc5LjEyNS0uNzU5LjU0NXQtLjk2NC42NzktLjkyOS41OC0xLjAyNy40ODItLjg5My4xNjFoLS4wMzZxLS40MTEgMC0uODkzLS4xNjF0LTEuMDI3LS40ODItLjkyOS0uNTgtLjk2NC0uNjc5LS43NTktLjU0NXEtMS42MjUtMS4xNDMtNC42NzktMy4yNTl0LTMuNjYxLTIuNTQ1cS0xLjEwNy0uNzUtMi4wODktMi4wNjNULS4wMDIgNy44MnEwLTEuMzkzLjc0MS0yLjMyMXQyLjExNi0uOTI5aDI2LjI4NnExLjE2MSAwIDIuMDA5LjgzOXQuODQ4IDIuMDE4eiIvPjwvc3ZnPg==);mask-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHBhdGggZD0iTTMyIDEyLjY3OXYxNC4xNzlxMCAxLjE3OS0uODM5IDIuMDE4dC0yLjAxOC44MzlIMi44NTdxLTEuMTc5IDAtMi4wMTgtLjgzOVQwIDI2Ljg1OFYxMi42NzlxLjc4Ni44NzUgMS44MDQgMS41NTQgNi40NjQgNC4zOTMgOC44NzUgNi4xNjEgMS4wMTguNzUgMS42NTIgMS4xN3QxLjY4OC44NTcgMS45NjQuNDM4aC4wMzZxLjkxMSAwIDEuOTY0LS40Mzh0MS42ODgtLjg1NyAxLjY1Mi0xLjE3cTMuMDM2LTIuMTk2IDguODkzLTYuMTYxIDEuMDE4LS42OTYgMS43ODYtMS41NTR6bTAtNS4yNXEwIDEuNDExLS44NzUgMi42OTZ0LTIuMTc5IDIuMTk2cS02LjcxNCA0LjY2MS04LjM1NyA1LjgwNC0uMTc5LjEyNS0uNzU5LjU0NXQtLjk2NC42NzktLjkyOS41OC0xLjAyNy40ODItLjg5My4xNjFoLS4wMzZxLS40MTEgMC0uODkzLS4xNjF0LTEuMDI3LS40ODItLjkyOS0uNTgtLjk2NC0uNjc5LS43NTktLjU0NXEtMS42MjUtMS4xNDMtNC42NzktMy4yNTl0LTMuNjYxLTIuNTQ1cS0xLjEwNy0uNzUtMi4wODktMi4wNjNULS4wMDIgNy44MnEwLTEuMzkzLjc0MS0yLjMyMXQyLjExNi0uOTI5aDI2LjI4NnExLjE2MSAwIDIuMDA5LjgzOXQuODQ4IDIuMDE4eiIvPjwvc3ZnPg==)}a[data-icon=github]:before{-webkit-mask-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHBhdGggZD0iTTE2IC4zOTVjLTguODM2IDAtMTYgNy4xNjMtMTYgMTYgMCA3LjA2OSA0LjU4NSAxMy4wNjcgMTAuOTQyIDE1LjE4Mi44LjE0OCAxLjA5NC0uMzQ3IDEuMDk0LS43NyAwLS4zODEtLjAxNS0xLjY0Mi0uMDIyLTIuOTc5LTQuNDUyLjk2OC01LjM5MS0xLjg4OC01LjM5MS0xLjg4OC0uNzI4LTEuODQ5LTEuNzc2LTIuMzQxLTEuNzc2LTIuMzQxLTEuNDUyLS45OTMuMTEtLjk3My4xMS0uOTczIDEuNjA2LjExMyAyLjQ1MiAxLjY0OSAyLjQ1MiAxLjY0OSAxLjQyNyAyLjQ0NiAzLjc0MyAxLjczOSA0LjY1NiAxLjMzLjE0My0xLjAzNC41NTgtMS43NCAxLjAxNi0yLjE0LTMuNTU0LS40MDQtNy4yOS0xLjc3Ny03LjI5LTcuOTA3IDAtMS43NDcuNjI1LTMuMTc0IDEuNjQ5LTQuMjk1LS4xNjYtLjQwMy0uNzE0LTIuMDMuMTU1LTQuMjM0IDAgMCAxLjM0NC0uNDMgNC40MDEgMS42NGExNS4zNTMgMTUuMzUzIDAgMCAxIDQuMDA1LS41MzljMS4zNTkuMDA2IDIuNzI5LjE4NCA0LjAwOC41MzkgMy4wNTQtMi4wNyA0LjM5NS0xLjY0IDQuMzk1LTEuNjQuODcxIDIuMjA0LjMyMyAzLjgzMS4xNTcgNC4yMzQgMS4wMjYgMS4xMiAxLjY0NyAyLjU0OCAxLjY0NyA0LjI5NSAwIDYuMTQ1LTMuNzQzIDcuNDk4LTcuMzA2IDcuODk1LjU3NC40OTcgMS4wODUgMS40NyAxLjA4NSAyLjk2MyAwIDIuMTQxLS4wMTkgMy44NjQtLjAxOSA0LjM5MSAwIC40MjYuMjg4LjkyNSAxLjA5OS43NjhDMjcuNDIxIDI5LjQ1NyAzMiAyMy40NjIgMzIgMTYuMzk1YzAtOC44MzctNy4xNjQtMTYtMTYtMTZ6Ii8+PC9zdmc+);mask-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHBhdGggZD0iTTE2IC4zOTVjLTguODM2IDAtMTYgNy4xNjMtMTYgMTYgMCA3LjA2OSA0LjU4NSAxMy4wNjcgMTAuOTQyIDE1LjE4Mi44LjE0OCAxLjA5NC0uMzQ3IDEuMDk0LS43NyAwLS4zODEtLjAxNS0xLjY0Mi0uMDIyLTIuOTc5LTQuNDUyLjk2OC01LjM5MS0xLjg4OC01LjM5MS0xLjg4OC0uNzI4LTEuODQ5LTEuNzc2LTIuMzQxLTEuNzc2LTIuMzQxLTEuNDUyLS45OTMuMTEtLjk3My4xMS0uOTczIDEuNjA2LjExMyAyLjQ1MiAxLjY0OSAyLjQ1MiAxLjY0OSAxLjQyNyAyLjQ0NiAzLjc0MyAxLjczOSA0LjY1NiAxLjMzLjE0My0xLjAzNC41NTgtMS43NCAxLjAxNi0yLjE0LTMuNTU0LS40MDQtNy4yOS0xLjc3Ny03LjI5LTcuOTA3IDAtMS43NDcuNjI1LTMuMTc0IDEuNjQ5LTQuMjk1LS4xNjYtLjQwMy0uNzE0LTIuMDMuMTU1LTQuMjM0IDAgMCAxLjM0NC0uNDMgNC40MDEgMS42NGExNS4zNTMgMTUuMzUzIDAgMCAxIDQuMDA1LS41MzljMS4zNTkuMDA2IDIuNzI5LjE4NCA0LjAwOC41MzkgMy4wNTQtMi4wNyA0LjM5NS0xLjY0IDQuMzk1LTEuNjQuODcxIDIuMjA0LjMyMyAzLjgzMS4xNTcgNC4yMzQgMS4wMjYgMS4xMiAxLjY0NyAyLjU0OCAxLjY0NyA0LjI5NSAwIDYuMTQ1LTMuNzQzIDcuNDk4LTcuMzA2IDcuODk1LjU3NC40OTcgMS4wODUgMS40NyAxLjA4NSAyLjk2MyAwIDIuMTQxLS4wMTkgMy44NjQtLjAxOSA0LjM5MSAwIC40MjYuMjg4LjkyNSAxLjA5OS43NjhDMjcuNDIxIDI5LjQ1NyAzMiAyMy40NjIgMzIgMTYuMzk1YzAtOC44MzctNy4xNjQtMTYtMTYtMTZ6Ii8+PC9zdmc+)}a[data-icon=linkedin]:before{-webkit-mask-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHBhdGggZD0iTTI5IDBIM0MxLjM1IDAgMCAxLjM1IDAgM3YyNmMwIDEuNjUgMS4zNSAzIDMgM2gyNmMxLjY1IDAgMy0xLjM1IDMtM1YzYzAtMS42NS0xLjM1LTMtMy0zek0xMiAyNkg4VjEyaDR2MTR6bS0yLTE2Yy0xLjEwNiAwLTItLjg5NC0yLTJzLjg5NC0yIDItMmMxLjEwNiAwIDIgLjg5NCAyIDJzLS44OTQgMi0yIDJ6bTE2IDE2aC00di04YzAtMS4xMDYtLjg5NC0yLTItMnMtMiAuODk0LTIgMnY4aC00VjEyaDR2Mi40ODFDMTguODI1IDEzLjM1IDIwLjA4NyAxMiAyMS41IDEyYzIuNDg4IDAgNC41IDIuMjM4IDQuNSA1djl6Ii8+PC9zdmc+);mask-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHBhdGggZD0iTTI5IDBIM0MxLjM1IDAgMCAxLjM1IDAgM3YyNmMwIDEuNjUgMS4zNSAzIDMgM2gyNmMxLjY1IDAgMy0xLjM1IDMtM1YzYzAtMS42NS0xLjM1LTMtMy0zek0xMiAyNkg4VjEyaDR2MTR6bS0yLTE2Yy0xLjEwNiAwLTItLjg5NC0yLTJzLjg5NC0yIDItMmMxLjEwNiAwIDIgLjg5NCAyIDJzLS44OTQgMi0yIDJ6bTE2IDE2aC00di04YzAtMS4xMDYtLjg5NC0yLTItMnMtMiAuODk0LTIgMnY4aC00VjEyaDR2Mi40ODFDMTguODI1IDEzLjM1IDIwLjA4NyAxMiAyMS41IDEyYzIuNDg4IDAgNC41IDIuMjM4IDQuNSA1djl6Ii8+PC9zdmc+)}a[data-icon=twitter]:before{-webkit-mask-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHBhdGggZD0iTTMyIDcuMDc1YTEyLjk0MSAxMi45NDEgMCAwIDEtMy43NjkgMS4wMzEgNi42MDEgNi42MDEgMCAwIDAgMi44ODctMy42MzEgMTMuMjEgMTMuMjEgMCAwIDEtNC4xNjkgMS41OTRBNi41NjUgNi41NjUgMCAwIDAgMjIuMTU1IDRhNi41NjMgNi41NjMgMCAwIDAtNi41NjMgNi41NjNjMCAuNTEyLjA1NiAxLjAxMi4xNjkgMS40OTRBMTguNjM1IDE4LjYzNSAwIDAgMSAyLjIzIDUuMTk1YTYuNTYgNi41NiAwIDAgMC0uODg3IDMuMyA2LjU1NyA2LjU1NyAwIDAgMCAyLjkxOSA1LjQ2MyA2LjU2NSA2LjU2NSAwIDAgMS0yLjk3NS0uODE5di4wODFhNi41NjUgNi41NjUgMCAwIDAgNS4yNjkgNi40MzcgNi41NzQgNi41NzQgMCAwIDEtMi45NjguMTEyIDYuNTg4IDYuNTg4IDAgMCAwIDYuMTMxIDQuNTYzIDEzLjE3IDEzLjE3IDAgMCAxLTkuNzI1IDIuNzE5IDE4LjU2OCAxOC41NjggMCAwIDAgMTAuMDY5IDIuOTVjMTIuMDc1IDAgMTguNjgxLTEwLjAwNiAxOC42ODEtMTguNjgxIDAtLjI4Ny0uMDA2LS41NjktLjAxOS0uODVBMTMuMjE2IDEzLjIxNiAwIDAgMCAzMiA3LjA3NnoiLz48L3N2Zz4=);mask-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHBhdGggZD0iTTMyIDcuMDc1YTEyLjk0MSAxMi45NDEgMCAwIDEtMy43NjkgMS4wMzEgNi42MDEgNi42MDEgMCAwIDAgMi44ODctMy42MzEgMTMuMjEgMTMuMjEgMCAwIDEtNC4xNjkgMS41OTRBNi41NjUgNi41NjUgMCAwIDAgMjIuMTU1IDRhNi41NjMgNi41NjMgMCAwIDAtNi41NjMgNi41NjNjMCAuNTEyLjA1NiAxLjAxMi4xNjkgMS40OTRBMTguNjM1IDE4LjYzNSAwIDAgMSAyLjIzIDUuMTk1YTYuNTYgNi41NiAwIDAgMC0uODg3IDMuMyA2LjU1NyA2LjU1NyAwIDAgMCAyLjkxOSA1LjQ2MyA2LjU2NSA2LjU2NSAwIDAgMS0yLjk3NS0uODE5di4wODFhNi41NjUgNi41NjUgMCAwIDAgNS4yNjkgNi40MzcgNi41NzQgNi41NzQgMCAwIDEtMi45NjguMTEyIDYuNTg4IDYuNTg4IDAgMCAwIDYuMTMxIDQuNTYzIDEzLjE3IDEzLjE3IDAgMCAxLTkuNzI1IDIuNzE5IDE4LjU2OCAxOC41NjggMCAwIDAgMTAuMDY5IDIuOTVjMTIuMDc1IDAgMTguNjgxLTEwLjAwNiAxOC42ODEtMTguNjgxIDAtLjI4Ny0uMDA2LS41NjktLjAxOS0uODVBMTMuMjE2IDEzLjIxNiAwIDAgMCAzMiA3LjA3NnoiLz48L3N2Zz4=)}a:focus,a:hover{text-decoration:underline}a[data-icon]:before{display:inline-block;width:16px;height:16px;margin-right:8px;vertical-align:middle;background-color:var(--text,#161616);content:""}@media print{a[data-icon]:before{display:none}}@media only screen and (min-width:){aside{float:left;width:33%}}blockquote{position:relative;margin-left:0;padding-right:16px;padding-left:16px;font-style:italic}blockquote:before{display:inline-block;position:absolute;top:0;left:0;width:4px;height:100%;background-color:var(--brand--primary,#0f62fe);content:""}body{max-width:1024px;margin-right:auto;margin-left:auto;padding:0 32px;background-color:var(--background,#fff)}@media print{body{max-width:640px}}figcaption{font-size:12px;font-size:.75rem}footer{overflow:auto}h1,h2{color:var(--brand--primary,#0f62fe)}h1,h2,h3,html{font-weight:300}html{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;line-height:1.5;letter-spacing:.00625rem;color:var(--text,#161616);-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased}@media only screen and (min-width:60rem){main{float:left;width:calc(66% - 32px);margin-right:32px}}ol{padding-left:16px}strong{font-weight:600}ul{padding-left:16px}.articles{padding:0;list-style:none}.articles>li{display:inline-block;padding-top:4px;padding-bottom:4px;border-bottom:2px solid var(--brand--secondary,#f4f4f4)}.articles>li:first-of-type{border-top:2px solid var(--brand--secondary,#f4f4f4)}@media print{.aside--articles{display:none}}.aside__list{padding-left:0;list-style:none}@media print{.aside__list{padding-left:16px;list-style:initial}}.footer__section--next,.footer__section--previous{width:calc(50% - 16px)}.footer__section--next{float:right;margin-left:16px;text-align:right}.footer__section--previous{float:left;margin-right:16px}.header{border-bottom:4px solid var(--brand--secondary,#f4f4f4)}@media print{.header{padding-bottom:8px}}.header__title{font-size:32px;font-size:2rem;display:block;margin-top:32px;margin-bottom:4px;font-weight:300}.header__subtitle{display:block}.header__ul{padding-left:0}@media print{.header__ul{display:none}}.header__li{display:inline-block;margin-right:16px}.header__a{color:var(--text,#161616)}.header__a--active,.header__a:focus,.header__a:hover{color:var(--brand--primary,#0f62fe)}.header__a:focus,.header__a:hover{text-decoration:initial}.services{overflow:auto;padding-left:0;list-style:none}.services>li{display:inline-block;margin-right:8px;margin-bottom:8px;padding:8px;background-color:var(--brand--secondary,#f4f4f4)}@media print{.services>li{border:.1px solid var(--brand--secondary,#f4f4f4)}}</style><meta name="generator" content="Gatsby 2.20.24"/><title data-react-helmet="true">High-fidelity solution — Simon Finney</title><meta data-react-helmet="true" name="description" content=""/><style type="text/css">
+    .anchor.before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translateX(-100%);
       padding-right: 4px;
-      margin-left: -20px;
+    }
+    .anchor.after {
+      display: inline-block;
+      padding-left: 4px;
     }
     h1 .anchor svg,
     h2 .anchor svg,
@@ -32,7 +38,9 @@
       if (hash !== '') {
         var element = document.getElementById(hash)
         if (element) {
-          var offset = element.offsetTop
+          var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop
+          var clientTop = document.documentElement.clientTop || document.body.clientTop || 0
+          var offset = element.getBoundingClientRect().top + scrollTop - clientTop
           // Wait for the browser to finish rendering before scrolling.
           setTimeout((function() {
             window.scrollTo(0, offset - 0)
@@ -40,7 +48,7 @@
         }
       }
     })
-  </script><link as="script" rel="preload" href="/webpack-runtime-e8db0e760d4481d3677d.js"/><link as="script" rel="preload" href="/app-84093cb647c3fe7d4d52.js"/><link as="script" rel="preload" href="/styles-4a16ab0239b413334ebe.js"/><link as="script" rel="preload" href="/1-7cb956371c8918246f98.js"/><link as="script" rel="preload" href="/component---src-templates-article-js-873172d02faa60d5c096.js"/><link as="fetch" rel="preload" href="/static/d/124/path---2016-high-fidelity-solution-ed-4-1ee-xs9Vv0AsbVStADmb50lH6BDfErs.json" crossorigin="use-credentials"/></head><body><noscript id="gatsby-noscript">This app works best with JavaScript enabled.</noscript><div id="___gatsby"><div style="outline:none" tabindex="-1" role="group"><header class="header" role="banner"><a class="header__title" href="/">Simon Finney</a><span class="header__subtitle">Front End Specialist</span><nav role="navigation"><ul class="header__ul"><li class="header__li"><a class="header__a" href="/articles">Articles</a></li></ul></nav></header><main role="main"><header><h1>High-fidelity solution</h1><time dateTime="17 April, 2016">17 April, 2016</time></header><article><p>This week was the culmination of all the research and design strategy I'd been
+  </script><link as="script" rel="preload" href="/webpack-runtime-36cc1f4169718945b8c0.js"/><link as="script" rel="preload" href="/framework-4adb46e364577e67729f.js"/><link as="script" rel="preload" href="/app-34d5562a88d3afff8753.js"/><link as="script" rel="preload" href="/styles-b729c27faa6284e9ff45.js"/><link as="script" rel="preload" href="/3d807871491f3cdcb0a63b7f0e4cdc996ddee600-f007eea740ab3f32ebee.js"/><link as="script" rel="preload" href="/component---src-templates-article-js-d2eca1eefd71ebb709f1.js"/><link as="fetch" rel="preload" href="/page-data/2016/high-fidelity-solution/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><header class="header" role="banner"><a class="header__title" href="/">Simon Finney</a><span class="header__subtitle">Front End Specialist</span><nav role="navigation"><ul class="header__ul"><li class="header__li"><a class="header__a" href="/articles">Articles</a></li></ul></nav></header><main role="main"><header><h1>High-fidelity solution</h1><time dateTime="17 April, 2016">17 April, 2016</time></header><article><p>This week was the culmination of all the research and design strategy I'd been
 spearheading over the last month.</p>
 <p>My goal was to simplify the current workflow of discovering events the target
 audience might be interested in, based on relevancy, location, and those around
@@ -54,40 +62,41 @@ this article.</p>
 <p>As a learning challenge for myself, I decided to use some tools that I wasn't
 too familiar with, Adobe Experience Design and Illustrator, in an effort to try
 them out and determine whether I'd use them on other projects in future.</p>
-<h2 id="proposed-user-flow"><a href="#proposed-user-flow" aria-label="proposed user flow permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Proposed user flow</h2>
+<h2 id="proposed-user-flow" style="position:relative;"><a href="#proposed-user-flow" aria-label="proposed user flow permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Proposed user flow</h2>
 <p>My first task was to develop a user flow that I felt was suitable for my primary
 persona, <a href="https://drive.google.com/open?id=0BzA9UyHASmcNNlhldnFENlJOUmc" target="_blank" rel="noopener noreferrer">Eoin</a>,
 and the
 <a href="../gaining-empathy#experience-mapping-and-storyboarding">experience mapping and storyboarding</a>
 exercises I conducted in my previous article on gaining empathy.</p>
-<p><a
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 504px;"
+    >
+      <a
     class="gatsby-resp-image-link"
-    href="/static/5231c5283a9c2ff64ddae06e866be28c/8fdf3/User-flow.jpg"
+    href="/static/5231c5283a9c2ff64ddae06e866be28c/8e386/User-flow.jpg"
     style="display: block"
     target="_blank"
     rel="noopener"
   >
     <span
-    class="gatsby-resp-image-wrapper"
-    style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 504px;"
-  >
-    <span
-      class="gatsby-resp-image-background-image"
-      style="padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBAgT/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB0uVaJAP/xAAaEAACAgMAAAAAAAAAAAAAAAAAARESAgMQ/9oACAEBAAEFAtdXiNJlkiZ5/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGBAAAgMAAAAAAAAAAAAAAAAAASEQICL/2gAIAQEABj8CyFDp/8QAHBAAAwABBQAAAAAAAAAAAAAAAAERITFBUWGR/9oACAEBAAE/IchDsoJjapkerYtpel5P/9oADAMBAAIAAwAAABAvP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABwQAQADAAIDAAAAAAAAAAAAAAEAESExQWFxof/aAAgBAQABPxBAaioar5aZ4PkpReFwzc9DG1n0qo2dA95P/9k='); background-size: cover; display: block;"
-    ></span>
-    <img
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 74.84662576687117%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBAgT/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB0uVaJAP/xAAaEAACAgMAAAAAAAAAAAAAAAAAARESAgMQ/9oACAEBAAEFAtdXiNJlkiZ5/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGBAAAgMAAAAAAAAAAAAAAAAAASEQICL/2gAIAQEABj8CyFDp/8QAHBAAAwABBQAAAAAAAAAAAAAAAAERITFBUWGR/9oACAEBAAE/IchDsoJjapkerYtpel5P/9oADAMBAAIAAwAAABAvP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABwQAQADAAIDAAAAAAAAAAAAAAEAESExQWFxof/aAAgBAQABPxBAaioar5aZ4PkpReFwzc9DG1n0qo2dA95P/9k='); background-size: cover; display: block;"
+  ></span>
+  <img
         class="gatsby-resp-image-image"
-        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;"
         alt="User flow"
-        title=""
-        src="/static/5231c5283a9c2ff64ddae06e866be28c/8fdf3/User-flow.jpg"
-        srcset="/static/5231c5283a9c2ff64ddae06e866be28c/aca85/User-flow.jpg 163w,
-/static/5231c5283a9c2ff64ddae06e866be28c/0954f/User-flow.jpg 325w,
-/static/5231c5283a9c2ff64ddae06e866be28c/8fdf3/User-flow.jpg 504w"
+        title="User flow"
+        src="/static/5231c5283a9c2ff64ddae06e866be28c/8e386/User-flow.jpg"
+        srcset="/static/5231c5283a9c2ff64ddae06e866be28c/d2f63/User-flow.jpg 163w,
+/static/5231c5283a9c2ff64ddae06e866be28c/c989d/User-flow.jpg 325w,
+/static/5231c5283a9c2ff64ddae06e866be28c/8e386/User-flow.jpg 504w"
         sizes="(max-width: 504px) 100vw, 504px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
       />
-  </span>
-  </a></p>
+  </a>
+    </span></p>
 <figcaption>User flow</figcaption>
 <p>The final user flow is as follows:</p>
 <ol>
@@ -103,7 +112,7 @@ of his choosing</li>
 </ol>
 <p>Once decided on the basic flow, I took the opportunity to develop a general
 aesthetic guideline for the outputted designs.</p>
-<h2 id="design-languages-and-pattern-libraries"><a href="#design-languages-and-pattern-libraries" aria-label="design languages and pattern libraries permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Design Languages and Pattern Libraries</h2>
+<h2 id="design-languages-and-pattern-libraries" style="position:relative;"><a href="#design-languages-and-pattern-libraries" aria-label="design languages and pattern libraries permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Design Languages and Pattern Libraries</h2>
 <p>As I made the decision early on to develop the prototype to be used on a
 smartphone, I inevitably ended up conforming to Google's <a href="%5Bhttps://www.google.com/design/spec/material-design/introduction%5D">material design</a> guidelines in places, incorporating appropriate interface elements where
 necessary to ensure the application felt right.</p>
@@ -119,63 +128,65 @@ Yelp's, that was specific and fit-for-purpose across the application:</p>
 <li><strong>Secondary colour:</strong> #4b8400 - Reserved for special actions like discovering
 prices</li>
 </ul>
-<p><a
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 316px;"
+    >
+      <a
     class="gatsby-resp-image-link"
-    href="/static/f379d2520ba6b868f8d9a05f7c067edb/8594d/Colour-palette.png"
+    href="/static/f379d2520ba6b868f8d9a05f7c067edb/67145/Colour-palette.png"
     style="display: block"
     target="_blank"
     rel="noopener"
   >
     <span
-    class="gatsby-resp-image-wrapper"
-    style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 316px;"
-  >
-    <span
-      class="gatsby-resp-image-background-image"
-      style="padding-bottom: 31.645569620253163%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsSAAALEgHS3X78AAAAT0lEQVQY02NwrN33Hwn/c6rZ88+q6dj/pvD29o/imu9fyJn8fy5r9A+EX8gZ/X8vbvK+J0Kk0qWD4b9PM8N/72aGf94tQBqKGUYNHHwGAgDB/P0JObf/ZwAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
-    ></span>
-    <img
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 31.901840490797547%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsSAAALEgHS3X78AAAAT0lEQVQY02NwrN33Hwn/c6rZ88+q6dj/pvD29o/imu9fyJn8fy5r9A+EX8gZ/X8vbvK+J0Kk0qWD4b9PM8N/72aGf94tQBqKGUYNHHwGAgDB/P0JObf/ZwAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
         class="gatsby-resp-image-image"
-        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;"
         alt="Colour palette"
-        title=""
-        src="/static/f379d2520ba6b868f8d9a05f7c067edb/8594d/Colour-palette.png"
-        srcset="/static/f379d2520ba6b868f8d9a05f7c067edb/19bd1/Colour-palette.png 163w,
-/static/f379d2520ba6b868f8d9a05f7c067edb/8594d/Colour-palette.png 316w"
+        title="Colour palette"
+        src="/static/f379d2520ba6b868f8d9a05f7c067edb/67145/Colour-palette.png"
+        srcset="/static/f379d2520ba6b868f8d9a05f7c067edb/222b7/Colour-palette.png 163w,
+/static/f379d2520ba6b868f8d9a05f7c067edb/67145/Colour-palette.png 316w"
         sizes="(max-width: 316px) 100vw, 316px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
       />
-  </span>
-  </a></p>
+  </a>
+    </span></p>
 <figcaption>Colour palette</figcaption>
 <p>The filter button present on the landing view shows how I adapted the
 <a href="https://www.google.com/design/spec/components/buttons-floating-action-button.html" target="_blank" rel="noopener noreferrer">Floating Action Button</a>
 of material design to fall in line with the colour palette I adopted:</p>
-<p><a
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 101px;"
+    >
+      <a
     class="gatsby-resp-image-link"
-    href="/static/6d66a706eee62589b5d538f42a13d2c0/36d18/Filter.png"
+    href="/static/6d66a706eee62589b5d538f42a13d2c0/2c66b/Filter.png"
     style="display: block"
     target="_blank"
     rel="noopener"
   >
     <span
-    class="gatsby-resp-image-wrapper"
-    style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 101px;"
-  >
-    <span
-      class="gatsby-resp-image-background-image"
-      style="padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsSAAALEgHS3X78AAAEZklEQVQ4y2VVe0xTVxg/t7TSWkqrwHiVgdLhYKArjsegUNpS6oSqy4T6wDiBUZ2bymtYnmWDzU2CW5ySActI9nCLIrpIAFvkscJAyALZsi3x9ceyf5aZJSYkE7DfvnPuLSHuJL/7ndtzvl+/9yWErWfYc0fb90ymlPWRVzvviUYByNPrzDJwJ27zvweEHiNiaaJw0ozgeLKLqFjQPiKQznBr9P0ik6ueTdj1iXZzznvxhGyn/yymmpbWET/+ShFRqg8J17t5sfNDF5MFHT+LhBNpWvnlo1mVgxP6mpsP9TWuRcSjrIrBOykllz4PjrOb8I5is75Rwl9/hUiV+/mt7tQFJvPbFxhZXN6Z2OzKoSlz8wzkNv0IxrpxMDjGUI6BqcEDZudtyK4aXtyy46wTr6tDE+xSqqdUl+MzjSe1tM4xN2N0TWp99c07Zucs5NSOLCFWEE8QXgF0v2SsnwBTvQc0xraP0PuoTVm163img4REpbaQo+PA8dYO9Oe1zFGyxzmnb4GBh/cp0PMVajl6sqRUF5cQErQx69QlTiLbiXFr/4WRvbivx0BdQwVmEVXOqnF7M6vdsBZ6/gxJ3ctm5wxsLfwMsxmQGKOr92dGHupbZLHLOH79HI0Pki1TBapodU6A7YNJKHx/EooEaa4fXXXf1PADZBy/9rdIbNyHxabqpmX2gK81ke7kjeHcpmneHbSOWlPXuwC97vvQNXgXuofuQs/wPST1gA4tZ+47RjFBQytYNg5CwsNKBuY5AjyhNPPEjQmaVUroi5UOSdv7fmOEva77UPrxDKRXusDoYHFkpFhOsCH69RYkjDQ4vuZIH7CEiDPeuj5AS0VwmbrEFPObx6Hj6u9Q0fUTe/clihFizLE2lwJCbY2EaNTZ1Z0cqVgAFsOXjnzTtobQl13IqHLBmxdmYW+bBzJxbxTIWAwbPZBa9t1fhKTbRRJTuPaABZNy5RHLcmRytQ5r8DGNC70slIcXCSC9wkXjtkrGzt5xr5id0xBraL2FFWxRRR0MFLpsEzl87SG1UpZc3NuV9+6cr6i9q6QOvgZpGAzUOiTLbZ4CbM9/CKevIyQzXh5sFZe7kUWy/gAp+mKeSGTZ2PTxGnRhjJIKBL5O8YG9U8swif8qwvf3ELLVLNtgVfHGFROyLiCbbfNa+tH1aCzOpMRttu7L6P4Tvp+nEJNMmpungdbe9sNf/ikPKezEu3v8Fflq7DdRYDg/ediK0NYymVZ+nuP89DLsz5ggTdkbL+w+34/J+jXNfuWP1NJvHyS9dnE2LOnkV5jCt7G3cpAsgpDnxapoHDpcKTIEUxp+dEVqG5iMs9hxSJzGZvdTImIxxjpULiAkIR+Dj2MrJkUkNsXKVFYFzlJRhJZqFSKifDN0I2Ke7WQqG07gXWxv7Zjmttk+lYRsKZNJlQUKecjewCDNEXlY0jF/qdLISm19EH1W0dEocO3xkcoRV4X9y4jddFyQ54z8L/C/TwEaT2yCZb6lZ5+A/wAA5Tl+CDKMhwAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
-    ></span>
-    <img
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsSAAALEgHS3X78AAAEZklEQVQ4y2VVe0xTVxg/t7TSWkqrwHiVgdLhYKArjsegUNpS6oSqy4T6wDiBUZ2bymtYnmWDzU2CW5ySActI9nCLIrpIAFvkscJAyALZsi3x9ceyf5aZJSYkE7DfvnPuLSHuJL/7ndtzvl+/9yWErWfYc0fb90ymlPWRVzvviUYByNPrzDJwJ27zvweEHiNiaaJw0ozgeLKLqFjQPiKQznBr9P0ik6ueTdj1iXZzznvxhGyn/yymmpbWET/+ShFRqg8J17t5sfNDF5MFHT+LhBNpWvnlo1mVgxP6mpsP9TWuRcSjrIrBOykllz4PjrOb8I5is75Rwl9/hUiV+/mt7tQFJvPbFxhZXN6Z2OzKoSlz8wzkNv0IxrpxMDjGUI6BqcEDZudtyK4aXtyy46wTr6tDE+xSqqdUl+MzjSe1tM4xN2N0TWp99c07Zucs5NSOLCFWEE8QXgF0v2SsnwBTvQc0xraP0PuoTVm163img4REpbaQo+PA8dYO9Oe1zFGyxzmnb4GBh/cp0PMVajl6sqRUF5cQErQx69QlTiLbiXFr/4WRvbivx0BdQwVmEVXOqnF7M6vdsBZ6/gxJ3ctm5wxsLfwMsxmQGKOr92dGHupbZLHLOH79HI0Pki1TBapodU6A7YNJKHx/EooEaa4fXXXf1PADZBy/9rdIbNyHxabqpmX2gK81ke7kjeHcpmneHbSOWlPXuwC97vvQNXgXuofuQs/wPST1gA4tZ+47RjFBQytYNg5CwsNKBuY5AjyhNPPEjQmaVUroi5UOSdv7fmOEva77UPrxDKRXusDoYHFkpFhOsCH69RYkjDQ4vuZIH7CEiDPeuj5AS0VwmbrEFPObx6Hj6u9Q0fUTe/clihFizLE2lwJCbY2EaNTZ1Z0cqVgAFsOXjnzTtobQl13IqHLBmxdmYW+bBzJxbxTIWAwbPZBa9t1fhKTbRRJTuPaABZNy5RHLcmRytQ5r8DGNC70slIcXCSC9wkXjtkrGzt5xr5id0xBraL2FFWxRRR0MFLpsEzl87SG1UpZc3NuV9+6cr6i9q6QOvgZpGAzUOiTLbZ4CbM9/CKevIyQzXh5sFZe7kUWy/gAp+mKeSGTZ2PTxGnRhjJIKBL5O8YG9U8swif8qwvf3ELLVLNtgVfHGFROyLiCbbfNa+tH1aCzOpMRttu7L6P4Tvp+nEJNMmpungdbe9sNf/ikPKezEu3v8Fflq7DdRYDg/ediK0NYymVZ+nuP89DLsz5ggTdkbL+w+34/J+jXNfuWP1NJvHyS9dnE2LOnkV5jCt7G3cpAsgpDnxapoHDpcKTIEUxp+dEVqG5iMs9hxSJzGZvdTImIxxjpULiAkIR+Dj2MrJkUkNsXKVFYFzlJRhJZqFSKifDN0I2Ke7WQqG07gXWxv7Zjmttk+lYRsKZNJlQUKecjewCDNEXlY0jF/qdLISm19EH1W0dEocO3xkcoRV4X9y4jddFyQ54z8L/C/TwEaT2yCZb6lZ5+A/wAA5Tl+CDKMhwAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
         class="gatsby-resp-image-image"
-        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;"
         alt="Filter"
-        title=""
-        src="/static/6d66a706eee62589b5d538f42a13d2c0/36d18/Filter.png"
-        srcset="/static/6d66a706eee62589b5d538f42a13d2c0/36d18/Filter.png 101w"
+        title="Filter"
+        src="/static/6d66a706eee62589b5d538f42a13d2c0/2c66b/Filter.png"
+        srcset="/static/6d66a706eee62589b5d538f42a13d2c0/2c66b/Filter.png 101w"
         sizes="(max-width: 101px) 100vw, 101px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
       />
-  </span>
-  </a></p>
+  </a>
+    </span></p>
 <figcaption>Filter</figcaption>
 <p>In order to maintain it's own style as an application regardless of what
 platform it may be on, I made a decision to opt-out of using Roboto as a
@@ -183,7 +194,7 @@ typeface, and instead use the classic Helvetica with a number of different
 weights.</p>
 <p>Now I'll look at how the information architecture and content strategy developed
 earlier on fits in with my proposed solution.</p>
-<h2 id="information-architecture-and-content-strategy"><a href="#information-architecture-and-content-strategy" aria-label="information architecture and content strategy permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Information Architecture and Content Strategy</h2>
+<h2 id="information-architecture-and-content-strategy" style="position:relative;"><a href="#information-architecture-and-content-strategy" aria-label="information architecture and content strategy permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Information Architecture and Content Strategy</h2>
 <p>I produced a number of design artifacts while auditing
 <a href="http://www.tickets.ie" target="_blank" rel="noopener noreferrer">Tickets.ie</a> with regards to information architecture and
 content strategy.</p>
@@ -203,40 +214,41 @@ apparent</li>
 </ul>
 <p>Moving on from this, I'll discuss how I incorporated cognitive and social
 psychological aspects into my designs.</p>
-<h2 id="cognitive-and-social-psychology"><a href="#cognitive-and-social-psychology" aria-label="cognitive and social psychology permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Cognitive and Social Psychology</h2>
+<h2 id="cognitive-and-social-psychology" style="position:relative;"><a href="#cognitive-and-social-psychology" aria-label="cognitive and social psychology permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Cognitive and Social Psychology</h2>
 <p>In my article on
 <a href="../cognitive-social-psychology#cognitive-psychology">cognitive and social psychology</a>,
 I spoke about reducing cognitive load by making information easier to digest
 using a combination of media and text - here's an example of that in the design
 solution:</p>
-<p><a
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 450px;"
+    >
+      <a
     class="gatsby-resp-image-link"
-    href="/static/a4365407130edb39c1fc4fdf20964af2/44727/Reducing-cognitive-load.png"
+    href="/static/a4365407130edb39c1fc4fdf20964af2/fc2a6/Reducing-cognitive-load.png"
     style="display: block"
     target="_blank"
     rel="noopener"
   >
     <span
-    class="gatsby-resp-image-wrapper"
-    style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 450px;"
-  >
-    <span
-      class="gatsby-resp-image-background-image"
-      style="padding-bottom: 64.8888888888889%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsSAAALEgHS3X78AAADyklEQVQ4y13Q609TZwDH8fMXLJYC0naFgS2rFijh1pbSlq4UCmwILJQCiTOOYGUSL4MpmQ60NpSC3BZEAs5xEUHAEYvZxWWL22RuJmaZTEBKCBuWntMLHMKWJfOc38502Yu9+OS55Mk3z/MQO1/3elZP1O+s1jdvbU+10zszPbSvp5deruujt6eG6a3xMXpzfJLevD5Db47N0qFrn3Lu0KHRr+jg6F06OPIdHRiZ2/Jfvf97yD2/RPj76vyPkgxYqbDAd/ogdvqOYq3mODzW97DZfg6hNieCrk4EnZcQbBlAoOUq/I5roBwToC5Mg7Lfgs8+C3/T5yD77/mI7akG39pb+/EwzcosV1Wz1IXjLOU4xQY7m9jARQcb6Ghn/Rd7WH9bP+cjlmobZsnW6yzpnOR8wvpa3OxGy22Gsn8B6sr9pwQ98S7556AFoe5DrLexBgHXMdD9pxDq+gChSw4EO9sQ6OxGsPsy/G1XQLUOwd8+xrkB0nkTlMsN0sUFz3PBwe+9xPZkPfnr20VYslSy/tYarNqOwnPwJPeMs1gob8JGkwvrjV1YOvAhyJZBLjQEj20UyzUT8DZPY6V2hlvPcsE7L4L0dAM5r8/HD0ll7G+N1fjJYMODjGNYP3sGc/IzWGtwYuWdDvyY1YUNxwCojo/x5PAIHujH4KmdxKPSm/i5+BbjO8f94cCcl/jLfZpczSvEL2orG2o6jCfmWjxW14O2n8e80g7qZAfIE71YMF7Gpn0Yf/SOI9g8hcemaTw94sZG3WdYsXzJ7Di/wfbQQy/xfnUJaY2XoVKWwh7SZ6BKrkJpbAoqlRkoiVbizT1qWBKzUBytRdm+bFhVelRlmGCRmWGR56FcYUbZ3gKmPDUPDZVHvESmRkNm6jSwVFjY9PR0aLRq7OK/hF08HsIiwsDj857PeeGcMB4EAiHiX42HIkWBNGUaNLosqLWZTLpSCa1O5yXyTQZSLI7lDiWxe6SJkOxNQewrUogjIiAKj0BMlIAjhDhSAGl0LEoK34BOlYkcnQGvZemRrVLCpNEw2VywwJTnJXKN+g2FIhkZau2z1HQVo9YaGYUildknlTDJCQmMOCqKEQsE3ChgogVCRhS5m3l59z9zEbcnYuIVeiZBVfAsLkEPoyF3nTBma2lJjAiJMgmSZFLIpXGIE4sgiYlBslwOAZ8PIXdTwb+EEZEvhEciih8JXe0ArK67yKm/AYOpKETU1druGbN1y+bcnIW8HOOi2ZSzmJ9rei7XaFx83Wzm5P9PwX+K9pctFpdWLBQUlnpsNbZv/wZCpVrtQqgDrwAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
-    ></span>
-    <img
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 65.03067484662577%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsSAAALEgHS3X78AAADyklEQVQ4y13Q609TZwDH8fMXLJYC0naFgS2rFijh1pbSlq4UCmwILJQCiTOOYGUSL4MpmQ60NpSC3BZEAs5xEUHAEYvZxWWL22RuJmaZTEBKCBuWntMLHMKWJfOc38502Yu9+OS55Mk3z/MQO1/3elZP1O+s1jdvbU+10zszPbSvp5deruujt6eG6a3xMXpzfJLevD5Db47N0qFrn3Lu0KHRr+jg6F06OPIdHRiZ2/Jfvf97yD2/RPj76vyPkgxYqbDAd/ogdvqOYq3mODzW97DZfg6hNieCrk4EnZcQbBlAoOUq/I5roBwToC5Mg7Lfgs8+C3/T5yD77/mI7akG39pb+/EwzcosV1Wz1IXjLOU4xQY7m9jARQcb6Ghn/Rd7WH9bP+cjlmobZsnW6yzpnOR8wvpa3OxGy22Gsn8B6sr9pwQ98S7556AFoe5DrLexBgHXMdD9pxDq+gChSw4EO9sQ6OxGsPsy/G1XQLUOwd8+xrkB0nkTlMsN0sUFz3PBwe+9xPZkPfnr20VYslSy/tYarNqOwnPwJPeMs1gob8JGkwvrjV1YOvAhyJZBLjQEj20UyzUT8DZPY6V2hlvPcsE7L4L0dAM5r8/HD0ll7G+N1fjJYMODjGNYP3sGc/IzWGtwYuWdDvyY1YUNxwCojo/x5PAIHujH4KmdxKPSm/i5+BbjO8f94cCcl/jLfZpczSvEL2orG2o6jCfmWjxW14O2n8e80g7qZAfIE71YMF7Gpn0Yf/SOI9g8hcemaTw94sZG3WdYsXzJ7Di/wfbQQy/xfnUJaY2XoVKWwh7SZ6BKrkJpbAoqlRkoiVbizT1qWBKzUBytRdm+bFhVelRlmGCRmWGR56FcYUbZ3gKmPDUPDZVHvESmRkNm6jSwVFjY9PR0aLRq7OK/hF08HsIiwsDj857PeeGcMB4EAiHiX42HIkWBNGUaNLosqLWZTLpSCa1O5yXyTQZSLI7lDiWxe6SJkOxNQewrUogjIiAKj0BMlIAjhDhSAGl0LEoK34BOlYkcnQGvZemRrVLCpNEw2VywwJTnJXKN+g2FIhkZau2z1HQVo9YaGYUildknlTDJCQmMOCqKEQsE3ChgogVCRhS5m3l59z9zEbcnYuIVeiZBVfAsLkEPoyF3nTBma2lJjAiJMgmSZFLIpXGIE4sgiYlBslwOAZ8PIXdTwb+EEZEvhEciih8JXe0ArK67yKm/AYOpKETU1druGbN1y+bcnIW8HOOi2ZSzmJ9rei7XaFx83Wzm5P9PwX+K9pctFpdWLBQUlnpsNbZv/wZCpVrtQqgDrwAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
         class="gatsby-resp-image-image"
-        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;"
         alt="Reducing cognitive load"
-        title=""
-        src="/static/a4365407130edb39c1fc4fdf20964af2/44727/Reducing-cognitive-load.png"
-        srcset="/static/a4365407130edb39c1fc4fdf20964af2/19bd1/Reducing-cognitive-load.png 163w,
-/static/a4365407130edb39c1fc4fdf20964af2/d3bcb/Reducing-cognitive-load.png 325w,
-/static/a4365407130edb39c1fc4fdf20964af2/44727/Reducing-cognitive-load.png 450w"
+        title="Reducing cognitive load"
+        src="/static/a4365407130edb39c1fc4fdf20964af2/fc2a6/Reducing-cognitive-load.png"
+        srcset="/static/a4365407130edb39c1fc4fdf20964af2/222b7/Reducing-cognitive-load.png 163w,
+/static/a4365407130edb39c1fc4fdf20964af2/ff46a/Reducing-cognitive-load.png 325w,
+/static/a4365407130edb39c1fc4fdf20964af2/fc2a6/Reducing-cognitive-load.png 450w"
         sizes="(max-width: 450px) 100vw, 450px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
       />
-  </span>
-  </a></p>
+  </a>
+    </span></p>
 <figcaption>Reducing cognitive load</figcaption>
 <p>Above we can also see linking to the venue that the event is being held in,
 appealing to people's want to cut corners in common workflows.</p>
@@ -246,39 +258,40 @@ and purchase a ticket themselves!</p>
 <p>Seeing just how many people you know are attending the event may sway you to
 attend yourself, so the concept of social proof comes into play at the bottom of
 any events details page:</p>
-<p><a
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 300px;"
+    >
+      <a
     class="gatsby-resp-image-link"
-    href="/static/eed3c91ed5dd638f26de96df471761e2/135ae/Social-proof-contrast.png"
+    href="/static/eed3c91ed5dd638f26de96df471761e2/5a46d/Social-proof-contrast.png"
     style="display: block"
     target="_blank"
     rel="noopener"
   >
     <span
-    class="gatsby-resp-image-wrapper"
-    style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 300px;"
-  >
-    <span
-      class="gatsby-resp-image-background-image"
-      style="padding-bottom: 180.66666666666663%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,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'); background-size: cover; display: block;"
-    ></span>
-    <img
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 180.36809815950923%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,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'); background-size: cover; display: block;"
+  ></span>
+  <img
         class="gatsby-resp-image-image"
-        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;"
         alt="Social proof and contrast load"
-        title=""
-        src="/static/eed3c91ed5dd638f26de96df471761e2/135ae/Social-proof-contrast.png"
-        srcset="/static/eed3c91ed5dd638f26de96df471761e2/19bd1/Social-proof-contrast.png 163w,
-/static/eed3c91ed5dd638f26de96df471761e2/135ae/Social-proof-contrast.png 300w"
+        title="Social proof and contrast load"
+        src="/static/eed3c91ed5dd638f26de96df471761e2/5a46d/Social-proof-contrast.png"
+        srcset="/static/eed3c91ed5dd638f26de96df471761e2/222b7/Social-proof-contrast.png 163w,
+/static/eed3c91ed5dd638f26de96df471761e2/5a46d/Social-proof-contrast.png 300w"
         sizes="(max-width: 300px) 100vw, 300px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
       />
-  </span>
-  </a></p>
+  </a>
+    </span></p>
 <figcaption>Social proof and contrast</figcaption>
 <p>The use of contrast in both colour and size for the event tracking and buying
 buttons makes the buying call-to-action more attractive.</p>
 <p>Lastly I'll touch on universal (inclusive) design and accessibility, and how I
 took the research I did in this area into my final designs.</p>
-<h2 id="universal-design-and-accessibility"><a href="#universal-design-and-accessibility" aria-label="universal design and accessibility permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Universal design and accessibility</h2>
+<h2 id="universal-design-and-accessibility" style="position:relative;"><a href="#universal-design-and-accessibility" aria-label="universal design and accessibility permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Universal design and accessibility</h2>
 <p>As discussed in my
 <a href="../universal-inclusive-design-accessibility#equitable-use">article on this topic</a>,
 I've made considerations for a number of principles of universal design:</p>
@@ -293,97 +306,100 @@ different levels of colour blindness. One of the most challenging was
 tritanopia, an extremely rare condition that renders blue and green almost
 indistinguishable. The colour palette I developed above provides what I feel is
 enough of a noticeable distinction between actions:</p>
-<p><a
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 332px;"
+    >
+      <a
     class="gatsby-resp-image-link"
-    href="/static/2d1e4140fca160d268810738b829ded2/eac10/Tritanopia-comparison.png"
+    href="/static/2d1e4140fca160d268810738b829ded2/f8dc5/Tritanopia-comparison.png"
     style="display: block"
     target="_blank"
     rel="noopener"
   >
     <span
-    class="gatsby-resp-image-wrapper"
-    style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 332px;"
-  >
-    <span
-      class="gatsby-resp-image-background-image"
-      style="padding-bottom: 123.49397590361444%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,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'); background-size: cover; display: block;"
-    ></span>
-    <img
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 123.31288343558282%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,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'); background-size: cover; display: block;"
+  ></span>
+  <img
         class="gatsby-resp-image-image"
-        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;"
         alt="Tritanopia comparison"
-        title=""
-        src="/static/2d1e4140fca160d268810738b829ded2/eac10/Tritanopia-comparison.png"
-        srcset="/static/2d1e4140fca160d268810738b829ded2/19bd1/Tritanopia-comparison.png 163w,
-/static/2d1e4140fca160d268810738b829ded2/d3bcb/Tritanopia-comparison.png 325w,
-/static/2d1e4140fca160d268810738b829ded2/eac10/Tritanopia-comparison.png 332w"
+        title="Tritanopia comparison"
+        src="/static/2d1e4140fca160d268810738b829ded2/f8dc5/Tritanopia-comparison.png"
+        srcset="/static/2d1e4140fca160d268810738b829ded2/222b7/Tritanopia-comparison.png 163w,
+/static/2d1e4140fca160d268810738b829ded2/ff46a/Tritanopia-comparison.png 325w,
+/static/2d1e4140fca160d268810738b829ded2/f8dc5/Tritanopia-comparison.png 332w"
         sizes="(max-width: 332px) 100vw, 332px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
       />
-  </span>
-  </a></p>
+  </a>
+    </span></p>
 <figcaption>Tritanopia comparison</figcaption>
 <p>To demonstrate flexibility in use, I produced filtering controls that would
 provide the target audience choice in the methods that they used for discovering
 upcoming events, which they could do at their own pace:</p>
-<p><a
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 321px;"
+    >
+      <a
     class="gatsby-resp-image-link"
-    href="/static/a23e6bf9bf4b153cf5949698ae8affe9/86068/Filter-panel.png"
+    href="/static/a23e6bf9bf4b153cf5949698ae8affe9/30592/Filter-panel.png"
     style="display: block"
     target="_blank"
     rel="noopener"
   >
     <span
-    class="gatsby-resp-image-wrapper"
-    style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 321px;"
-  >
-    <span
-      class="gatsby-resp-image-background-image"
-      style="padding-bottom: 79.75077881619937%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAAsSAAALEgHS3X78AAACIElEQVQ4y52RS2sTURTH5xspuhcU6wuUgBvxM6hLkUYLVVyoC0Gx38GNaLvRhU1iQTexUZppUoyTxyTzSCbzflwXvX/vucmEtBhoXPzmnDnnzH/u/1ylsF5hV9cquLH+hRceS3Dz6Q6urZVxcXUbK8USViguoljiIvLLD0sQcOXKozK7sFrBdSF469lXFJ7s4Pbzb7hULOP0nY84e+8TztxdDPVPibnzD7b5ufufobz5sMdevK3h9ft9/moCXr5T6R0bWw1sbDYmcT7fnGOrwUXk0xmuBGOLmfpvgDOOw4wigD+TeJiTTWGT+pHeURTDtFhLa2O/0eT9gQnXC+CMXYGHsevB8wP4QShz1/NlnaCcegT1CD+IoASBzwTwPY+3NQ3DoY00iRFFIcIwhGEYGAwG6Ha7GI1Goh5JKKe6ruvwfX9WV8Qf2NANYTs+V5stdHQT9O64AeI4hm3bUrTX68FxHCRJIqHcNE0pGgSTWSloWhar1/fwffcH1/sGkjQTNkIEYSSH0jSVZFkmhfKTUJ73aG4mOBp7rHZgQFVV3mw2hN0E8fSjHLJORP+o55Fsk6gycn1W+2Wj39d5p9ORVuZFTkpuW3GE4M+WDU3TeLVaBYmSnWXFPM+bnlBY3j0whVCb1+t1WJYlT0hDJ4XszgTFH1iaypvj+YKP72oZpGAcy9vjeTG/tWWYCYoHo52JIv8foeMowj+bLpYvs7dF/AV0G38WsmZa5AAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
-    ></span>
-    <img
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 79.75460122699387%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAAsSAAALEgHS3X78AAACIElEQVQ4y52RS2sTURTH5xspuhcU6wuUgBvxM6hLkUYLVVyoC0Gx38GNaLvRhU1iQTexUZppUoyTxyTzSCbzflwXvX/vucmEtBhoXPzmnDnnzH/u/1ylsF5hV9cquLH+hRceS3Dz6Q6urZVxcXUbK8USViguoljiIvLLD0sQcOXKozK7sFrBdSF469lXFJ7s4Pbzb7hULOP0nY84e+8TztxdDPVPibnzD7b5ufufobz5sMdevK3h9ft9/moCXr5T6R0bWw1sbDYmcT7fnGOrwUXk0xmuBGOLmfpvgDOOw4wigD+TeJiTTWGT+pHeURTDtFhLa2O/0eT9gQnXC+CMXYGHsevB8wP4QShz1/NlnaCcegT1CD+IoASBzwTwPY+3NQ3DoY00iRFFIcIwhGEYGAwG6Ha7GI1Goh5JKKe6ruvwfX9WV8Qf2NANYTs+V5stdHQT9O64AeI4hm3bUrTX68FxHCRJIqHcNE0pGgSTWSloWhar1/fwffcH1/sGkjQTNkIEYSSH0jSVZFkmhfKTUJ73aG4mOBp7rHZgQFVV3mw2hN0E8fSjHLJORP+o55Fsk6gycn1W+2Wj39d5p9ORVuZFTkpuW3GE4M+WDU3TeLVaBYmSnWXFPM+bnlBY3j0whVCb1+t1WJYlT0hDJ4XszgTFH1iaypvj+YKP72oZpGAcy9vjeTG/tWWYCYoHo52JIv8foeMowj+bLpYvs7dF/AV0G38WsmZa5AAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
         class="gatsby-resp-image-image"
-        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;"
         alt="Filter panel"
-        title=""
-        src="/static/a23e6bf9bf4b153cf5949698ae8affe9/86068/Filter-panel.png"
-        srcset="/static/a23e6bf9bf4b153cf5949698ae8affe9/19bd1/Filter-panel.png 163w,
-/static/a23e6bf9bf4b153cf5949698ae8affe9/86068/Filter-panel.png 321w"
+        title="Filter panel"
+        src="/static/a23e6bf9bf4b153cf5949698ae8affe9/30592/Filter-panel.png"
+        srcset="/static/a23e6bf9bf4b153cf5949698ae8affe9/222b7/Filter-panel.png 163w,
+/static/a23e6bf9bf4b153cf5949698ae8affe9/30592/Filter-panel.png 321w"
         sizes="(max-width: 321px) 100vw, 321px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
       />
-  </span>
-  </a></p>
+  </a>
+    </span></p>
 <figcaption>Filter panel</figcaption>
 <p>With regards to simple and intuitive use, the filters above illustrate the
 flexibility of manipulating the event listings depending on the options they
 select. There are also multiple avenues of navigation between artist, event, and
 venue:</p>
-<p><a
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 320px;"
+    >
+      <a
     class="gatsby-resp-image-link"
-    href="/static/16140d51b396e2845483df21d2e2d870/01387/Navigation.png"
+    href="/static/16140d51b396e2845483df21d2e2d870/72799/Navigation.png"
     style="display: block"
     target="_blank"
     rel="noopener"
   >
     <span
-    class="gatsby-resp-image-wrapper"
-    style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 320px;"
-  >
-    <span
-      class="gatsby-resp-image-background-image"
-      style="padding-bottom: 129.99999999999997%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAaCAYAAAC3g3x9AAAACXBIWXMAAAsSAAALEgHS3X78AAAFcUlEQVRIx22V228UdRTHf3PZnZndmdnZmdnZ+852truzvVhoS7sLwdIbIBFFTHgx8cFghMAfoEYDlJuWSwqoQIulWFh9wBiTGpVsg774DxgTVuMTqy/U6HMN7PH8Zqe2RB8+Obfv7+Sc3+zOECMcXo3HYhA3zZahaaCEQiCLIiiStA6N/RytSYEAGKoKMdTHolFqWyb1ZXmVmIqyutl1YcB1W32FAmRREBYEEPCwuAY2oVbAvIKN4okEpNJpyGSzHjnbbuU7OiBuGKskJ6urBacX8k5vy3EHW+XSQCsb0VtBQWhJoriOJLWwYSuiqi3LsloanQq30nXdwzBNOvUqsWT5cU8uD53xJBSQXtuBQs4GC6dIJJKgRiI4oQSSFAIpFPYn9Semk4uShyB61/GYyEJwJRDkVniOPOI4ssLzzIoQ5FfEALciCfyKwDOPggHuT8z9FURNEOuUAIeWa/tBqkGLvf4gWjQ5pxcr943O4bpZrCwny9XluFtZjpUqy9HCUN0oVb9TM113lUShZpa2fk91iK+rLuvo01gvVu9rWvw6STiVLzvGDoP97MEnzujrMPj8ERh64Sj07DoEOZobPwLJ/v0/Wb17fnAmjoI9cvBJfqSt63vuMNVAfuRgKz96COL5wbtE05Qrppu9FytlvjERo5j2MP04hjXDMb/QO/S71DdL6ad09Jx31s3c0zT5AxLPkjvFSQLFcZ+J/1LZF4eBvdr/1/1zpZ0EUg75nGgqmYm5zFeWyyxRu4F/42RXYCle5pb83FLsae2Sd7bMfB3VyBUiEHKMEOYMcgo5jpzwOeXbKULIyTbMyXbs5an2mB+jlryLvd4hEgq5AHeH57l5Csezc8gN3/csH+AWkFs09nNe7NeovclwzIxEh6MNWY5b4DjuY5ZlZ6ldA+PraOeQm8gsrSMfIR8i13z/GsMwF3DCE9jrBG04RVj2Mi1iYQbtJbYdX8b4op9bq08T74rIcdrAt8f93LH1hgzzPtPmHLPun6cN1sADZzfkz23QX6AW66dF2nzDyvPIDR/P91ZkyA2Eru5p/Gu5ueE6qH6BwSvxhvMeCscv8ihGFvh2s1nP5wOzQigyL4SURcxd53Bt5Krnc9xVz8f7RO0c2254kojtlS8ShryHY9PVztPxkXOEF6Z5I3eJUyyaext5a4Nd899ci72fYAi7poLBWxmOv5MShUUjLC6mBfG2LUq3s4JwOxsMLCZlcdEMibWsKNVyglRLimItrqu1lCTU8oFgLSdJtYwofRpl2Wmi4FQTydTfL+Yd2Itv7GohC1vwrb3LsGCnacEuPQZD2RRssgzYGUUwHovqsMW2oN+KwQ4jAZORKEzqJjiC+InXcHc6C/vL3dDnlKCQSoKp4PdC1lBswUTRhaHqMAxWtsCOchdMyBGoxDLQVeqGznIf9A6PwXCHC5NqFAq4GZEZ5nSPKH3bFRSXpYBYj4bkuikrdVGQ6mVFqfdk0nW31Fnv6XLr3Xm7vlkK17tzTt0udNU77GI9kynU8zmsh+TlBMvOEJWQM25Y+jGnyj8XwtKD0XyscaA/3xhDW8nFG6OO1RhJRhqb1WBjazzUeGlTpjFeTDeyAbaR5LmGE+Ibg5b0oKSFfskyzBx9KNO9tg3jkxNQqQzB9uoA7NszBqPPboXt26rw6su74cCOQXhldADGn7Ghv2CAk4rgF04BXZPBjCpgIFE1DFmW+4xOeLYgir/aqvpbTpYfFlSl6epaMxOWm50RpTnZmWju6Uw139i2qfnasNscsaPN4bTW7NHDTTciNR1ZaqZF8aEdEn+3WXae6Pj/0xhmKoq/R93HQGisUR9rEbQUg2WmLI7zcibL+rZNlPrY6x+2vfr4fnjzHwAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
-    ></span>
-    <img
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 130.06134969325154%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAaCAYAAAC3g3x9AAAACXBIWXMAAAsSAAALEgHS3X78AAAFcUlEQVRIx22V228UdRTHf3PZnZndmdnZmdnZ+852truzvVhoS7sLwdIbIBFFTHgx8cFghMAfoEYDlJuWSwqoQIulWFh9wBiTGpVsg774DxgTVuMTqy/U6HMN7PH8Zqe2RB8+Obfv7+Sc3+zOECMcXo3HYhA3zZahaaCEQiCLIiiStA6N/RytSYEAGKoKMdTHolFqWyb1ZXmVmIqyutl1YcB1W32FAmRREBYEEPCwuAY2oVbAvIKN4okEpNJpyGSzHjnbbuU7OiBuGKskJ6urBacX8k5vy3EHW+XSQCsb0VtBQWhJoriOJLWwYSuiqi3LsloanQq30nXdwzBNOvUqsWT5cU8uD53xJBSQXtuBQs4GC6dIJJKgRiI4oQSSFAIpFPYn9Semk4uShyB61/GYyEJwJRDkVniOPOI4ssLzzIoQ5FfEALciCfyKwDOPggHuT8z9FURNEOuUAIeWa/tBqkGLvf4gWjQ5pxcr943O4bpZrCwny9XluFtZjpUqy9HCUN0oVb9TM113lUShZpa2fk91iK+rLuvo01gvVu9rWvw6STiVLzvGDoP97MEnzujrMPj8ERh64Sj07DoEOZobPwLJ/v0/Wb17fnAmjoI9cvBJfqSt63vuMNVAfuRgKz96COL5wbtE05Qrppu9FytlvjERo5j2MP04hjXDMb/QO/S71DdL6ad09Jx31s3c0zT5AxLPkjvFSQLFcZ+J/1LZF4eBvdr/1/1zpZ0EUg75nGgqmYm5zFeWyyxRu4F/42RXYCle5pb83FLsae2Sd7bMfB3VyBUiEHKMEOYMcgo5jpzwOeXbKULIyTbMyXbs5an2mB+jlryLvd4hEgq5AHeH57l5Csezc8gN3/csH+AWkFs09nNe7NeovclwzIxEh6MNWY5b4DjuY5ZlZ6ldA+PraOeQm8gsrSMfIR8i13z/GsMwF3DCE9jrBG04RVj2Mi1iYQbtJbYdX8b4op9bq08T74rIcdrAt8f93LH1hgzzPtPmHLPun6cN1sADZzfkz23QX6AW66dF2nzDyvPIDR/P91ZkyA2Eru5p/Gu5ueE6qH6BwSvxhvMeCscv8ihGFvh2s1nP5wOzQigyL4SURcxd53Bt5Krnc9xVz8f7RO0c2254kojtlS8ShryHY9PVztPxkXOEF6Z5I3eJUyyaext5a4Nd899ci72fYAi7poLBWxmOv5MShUUjLC6mBfG2LUq3s4JwOxsMLCZlcdEMibWsKNVyglRLimItrqu1lCTU8oFgLSdJtYwofRpl2Wmi4FQTydTfL+Yd2Itv7GohC1vwrb3LsGCnacEuPQZD2RRssgzYGUUwHovqsMW2oN+KwQ4jAZORKEzqJjiC+InXcHc6C/vL3dDnlKCQSoKp4PdC1lBswUTRhaHqMAxWtsCOchdMyBGoxDLQVeqGznIf9A6PwXCHC5NqFAq4GZEZ5nSPKH3bFRSXpYBYj4bkuikrdVGQ6mVFqfdk0nW31Fnv6XLr3Xm7vlkK17tzTt0udNU77GI9kynU8zmsh+TlBMvOEJWQM25Y+jGnyj8XwtKD0XyscaA/3xhDW8nFG6OO1RhJRhqb1WBjazzUeGlTpjFeTDeyAbaR5LmGE+Ibg5b0oKSFfskyzBx9KNO9tg3jkxNQqQzB9uoA7NszBqPPboXt26rw6su74cCOQXhldADGn7Ghv2CAk4rgF04BXZPBjCpgIFE1DFmW+4xOeLYgir/aqvpbTpYfFlSl6epaMxOWm50RpTnZmWju6Uw139i2qfnasNscsaPN4bTW7NHDTTciNR1ZaqZF8aEdEn+3WXae6Pj/0xhmKoq/R93HQGisUR9rEbQUg2WmLI7zcibL+rZNlPrY6x+2vfr4fnjzHwAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
         class="gatsby-resp-image-image"
-        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;"
         alt="Navigation"
-        title=""
-        src="/static/16140d51b396e2845483df21d2e2d870/01387/Navigation.png"
-        srcset="/static/16140d51b396e2845483df21d2e2d870/19bd1/Navigation.png 163w,
-/static/16140d51b396e2845483df21d2e2d870/01387/Navigation.png 320w"
+        title="Navigation"
+        src="/static/16140d51b396e2845483df21d2e2d870/72799/Navigation.png"
+        srcset="/static/16140d51b396e2845483df21d2e2d870/222b7/Navigation.png 163w,
+/static/16140d51b396e2845483df21d2e2d870/72799/Navigation.png 320w"
         sizes="(max-width: 320px) 100vw, 320px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
       />
-  </span>
-  </a></p>
+  </a>
+    </span></p>
 <figcaption>Navigation</figcaption>
 <p>Finally, for size and space for approach and use I looked at adding key actions
 like filtering closer to the user's hand. As well as this, consideration was
@@ -391,7 +407,7 @@ made for the user's comfort, with no touch target being shorter than 40 pixels
 in width or height.</p>
 <p>With the prototype finished, it's now time to see it in action - Here's a
 <a href="http://adobe.ly/1VAFHbh" target="_blank" rel="noopener noreferrer">link</a> to the high-fidelity solution I produced!</p>
-<h2 id="usability-testing"><a href="#usability-testing" aria-label="usability testing permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Usability testing</h2>
+<h2 id="usability-testing" style="position:relative;"><a href="#usability-testing" aria-label="usability testing permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Usability testing</h2>
 <p>As much research and design effort that's put in throughout the course of a
 project, you never really know which way it's going to go until you've placed
 your designs in front of a user to validate, in order to identify problems with
@@ -445,7 +461,7 @@ the confirm button to the right-hand side to make it more obvious that it's a
 button or distancing it a bit from the label. The reset button icon also needs
 to be revised, or perhaps it should be spelt out in English rather than relying
 on iconography.</p>
-<h2 id="conclusion"><a href="#conclusion" aria-label="conclusion permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Conclusion</h2>
+<h2 id="conclusion" style="position:relative;"><a href="#conclusion" aria-label="conclusion permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Conclusion</h2>
 <p>Throughout the course of the last few months, as well as tightening up some
 visual design and prototype development skills, I gained some new knowledge in
 areas I had yet to touch on, including:</p>
@@ -465,7 +481,7 @@ universal design, and producing mock-ups at a high-fidelity has given me a
 better eye for visual elements like colour, layout, and typography.</p>
 <p>To wrap up, I'll leave with my <a href="https://youtu.be/ukCEd6OgGpg" target="_blank" rel="noopener noreferrer">screencast</a>, which
 has consolidated the entire process from start to finish.</p>
-<h2 id="resources"><a href="#resources" aria-label="resources permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Resources</h2>
+<h2 id="resources" style="position:relative;"><a href="#resources" aria-label="resources permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Resources</h2>
 <ul>
 <li><a href="https://www.google.com/design/spec/material-design/introduction.html" target="_blank" rel="noopener noreferrer">Google material design</a></li>
 <li><a href="http://adobe.ly/1VAFHbh" target="_blank" rel="noopener noreferrer">High-fidelity solution</a></li>
@@ -475,4 +491,4 @@ has consolidated the entire process from start to finish.</p>
 <li><a href="https://lookback.io/watch/tY9Ra3rgGoKfStW3A" target="_blank" rel="noopener noreferrer">Usability test</a></li>
 <li><a href="https://drive.google.com/open?id=1FfljBzfQCazBGK0SXLC3GUzNUsXIMgyWoQ" target="_blank" rel="noopener noreferrer">User flow</a></li>
 <li><a href="https://drive.google.com/open?id=0BzA9UyHASmcNc2xsUl81b01ZbWc" target="_blank" rel="noopener noreferrer">Usability testing uploads</a></li>
-</ul></article><footer><section class="footer__section--previous"><a href="/2016/universal-inclusive-design-accessibility/">Universal (inclusive) design and accessibility</a></section></footer></main><aside><section><h3>Articles</h3><ol class="aside__list"><li><a aria-current="page" title="17 April, 2016" class="" href="/2016/high-fidelity-solution/">High-fidelity solution</a></li><li><a title="10 April, 2016" href="/2016/universal-inclusive-design-accessibility/">Universal (inclusive) design and accessibility</a></li><li><a title="3 April, 2016" href="/2016/cognitive-social-psychology/">Cognitive and social psychology</a></li><li><a title="27 March, 2016" href="/2016/information-architecture-content-strategy/">Information Architecture and Content Strategy</a></li><li><a title="20 March, 2016" href="/2016/gaining-empathy/">Gaining Empathy</a></li><li><a title="13 March, 2016" href="/2016/design-languages-pattern-libraries/">Design Languages and Pattern Libraries</a></li><li><a title="6 March, 2016" href="/2016/introduction/">Introduction</a></li></ol></section><section><h3>Contact</h3><ol class="aside__list"><li><a href="mailto:simonjfinney@gmail.com" rel="noopener noreferrer" target="_blank" data-icon="email">simonjfinney@gmail.com</a></li><li><a href="https://github.com/simonfinney" rel="noopener noreferrer" target="_blank" data-icon="github">GitHub</a></li><li><a href="https://codepen.io/simonfinney" rel="noopener noreferrer" target="_blank" data-icon="codepen">CodePen</a></li><li><a href="https://www.linkedin.com/in/simonfinney" rel="noopener noreferrer" target="_blank" data-icon="linkedin">LinkedIn</a></li><li><a href="https://twitter.com/SimonJFinney" rel="noopener noreferrer" target="_blank" data-icon="twitter">Twitter</a></li><li><a href="https://www.instagram.com/simonfinney" rel="noopener noreferrer" target="_blank" data-icon="instagram">Instagram</a></li></ol></section></aside></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.page={"componentChunkName":"component---src-templates-article-js","jsonName":"2016-high-fidelity-solution-ed4","path":"/2016/high-fidelity-solution/"};window.dataPath="124/path---2016-high-fidelity-solution-ed-4-1ee-xs9Vv0AsbVStADmb50lH6BDfErs";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-84093cb647c3fe7d4d52.js"],"component---src-templates-article-js":["/component---src-templates-article-js-873172d02faa60d5c096.js"],"component---src-templates-section-js":["/component---src-templates-section-js-b7ba4c45773411aab846.js"],"component---src-pages-404-js":["/component---src-pages-404-js-e41e8e0571e10b427f35.js"],"component---src-pages-articles-js":["/component---src-pages-articles-js-7ddf4ab95a535faab379.js"],"pages-manifest":["/pages-manifest-419b439b54baca5c0664.js"]};/*]]>*/</script><script src="/component---src-templates-article-js-873172d02faa60d5c096.js" async=""></script><script src="/1-7cb956371c8918246f98.js" async=""></script><script src="/styles-4a16ab0239b413334ebe.js" async=""></script><script src="/app-84093cb647c3fe7d4d52.js" async=""></script><script src="/webpack-runtime-e8db0e760d4481d3677d.js" async=""></script></body></html>
+</ul></article><footer><section class="footer__section--previous"><a href="/2016/universal-inclusive-design-accessibility/">Universal (inclusive) design and accessibility</a></section></footer></main><aside><section class="aside--articles"><h3>Articles</h3><ol class="aside__list"><li><a aria-current="page" title="17 April, 2016" class="" href="/2016/high-fidelity-solution/">High-fidelity solution</a></li><li><a title="10 April, 2016" href="/2016/universal-inclusive-design-accessibility/">Universal (inclusive) design and accessibility</a></li><li><a title="3 April, 2016" href="/2016/cognitive-social-psychology/">Cognitive and social psychology</a></li><li><a title="27 March, 2016" href="/2016/information-architecture-content-strategy/">Information Architecture and Content Strategy</a></li><li><a title="20 March, 2016" href="/2016/gaining-empathy/">Gaining Empathy</a></li><li><a title="13 March, 2016" href="/2016/design-languages-pattern-libraries/">Design Languages and Pattern Libraries</a></li><li><a title="6 March, 2016" href="/2016/introduction/">Introduction</a></li></ol></section><section><h3>Contact</h3><ol class="aside__list"><li><a href="mailto:simonjfinney@gmail.com" rel="noopener noreferrer" target="_blank" data-icon="email">simonjfinney@gmail.com</a></li><li><a href="https://www.linkedin.com/in/simonfinney" rel="noopener noreferrer" target="_blank" data-icon="linkedin">LinkedIn</a></li><li><a href="https://github.com/simonfinney" rel="noopener noreferrer" target="_blank" data-icon="github">GitHub</a></li><li><a href="https://codepen.io/simonfinney" rel="noopener noreferrer" target="_blank" data-icon="codepen">CodePen</a></li><li><a href="https://twitter.com/SimonJFinney" rel="noopener noreferrer" target="_blank" data-icon="twitter">Twitter</a></li></ol></section></aside></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/2016/high-fidelity-solution/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-34d5562a88d3afff8753.js"],"component---src-pages-404-js":["/component---src-pages-404-js-d033b09e965cc037eb3d.js"],"component---src-pages-articles-js":["/component---src-pages-articles-js-c0f6c8ad69d7de8e1e85.js"],"component---src-templates-article-js":["/component---src-templates-article-js-d2eca1eefd71ebb709f1.js"],"component---src-templates-section-js":["/component---src-templates-section-js-a3f7e449ce00830a841e.js"]};/*]]>*/</script><script src="/component---src-templates-article-js-d2eca1eefd71ebb709f1.js" async=""></script><script src="/3d807871491f3cdcb0a63b7f0e4cdc996ddee600-f007eea740ab3f32ebee.js" async=""></script><script src="/styles-b729c27faa6284e9ff45.js" async=""></script><script src="/app-34d5562a88d3afff8753.js" async=""></script><script src="/framework-4adb46e364577e67729f.js" async=""></script><script src="/webpack-runtime-36cc1f4169718945b8c0.js" async=""></script></body></html>
